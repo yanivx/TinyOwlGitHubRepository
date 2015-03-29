@@ -119,17 +119,20 @@ public class HomePage extends Page {
     	}
 	}
 	
+	// to click 'Not Now' when asked for update
 	public void clickPaytmUpdateNotNowButton()
 	{
 		paytmUpdateNotNowButton.click();
 		waitForPageToLoad(2);
 	}
 	
+	// get searched location name
 	public String getCurrentLocationName()
 	{
 		return currentLocationName.getText();
 	}
 	
+	// click edit location
 	public ManualLocationEntryPage clickEditLocation()
 	{
 		editLocationButton.click();
@@ -137,6 +140,7 @@ public class HomePage extends Page {
 		return new ManualLocationEntryPage(driver);
 	}
 	
+	// click settings link when 'Please turn on location settings' screen is displayed
 	public LocationSettingsPage clickSettingsLink()
 	{
 		settingsLink.click();
@@ -144,17 +148,20 @@ public class HomePage extends Page {
 		return new LocationSettingsPage(driver);
 	}
 	
+	// click Cancel Link when 'Retry Or Manual Entry Option' screen is displayed
 	public RetryOrManualEntryOptionPage clickCancelLink()
 	{
 		cancelLink.click();
 		return new RetryOrManualEntryOptionPage(driver);
 	}
-    	
+    
+	// get list of restaurants displayed
 	public LinkedHashSet<String> getListOfRestaurants()
 	{
 		return scroll(restaurantListView,15,true,getCountOfRestaurants());
 	}
 	
+	// scroll the page to get all the restaurants displayed
 	@SuppressWarnings("serial")
     private LinkedHashSet<String> scroll(WebElement viewToScroll, int speed, boolean scrollDown, int totalNoOfRestaurants) throws org.openqa.selenium.NoSuchElementException {
 		
@@ -224,6 +231,7 @@ public class HomePage extends Page {
         return names;
 	}
 	
+	// get count of restaurants displayed
 	public int getCountOfRestaurants()
 	{
 		if(isRestaurantCountDisplayed())
