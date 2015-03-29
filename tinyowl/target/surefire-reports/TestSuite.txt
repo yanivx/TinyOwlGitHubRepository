@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 624.076 sec <<< FAILURE!
+CurrentLocationGPSDisabledTestCase(com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest)  Time elapsed: 31.871 sec  <<< FAILURE!
+java.lang.AssertionError: Restaurants list is not displayed
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest.CurrentLocationGPSDisabledTestCase(CurrentLocationGPSDisabledTest.java:86)
+SearchLocationManuallyGPSDisabledTestCase(com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest)  Time elapsed: 41.915 sec  <<< FAILURE!
+java.lang.AssertionError: Unable To Fetch Restaurants in Andheri East, Mumbai, Maharashtra, India
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.ManualLocationEntryPage.selectLocationManually(ManualLocationEntryPage.java:112)
+	at com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest.SearchLocationManuallyGPSDisabledTestCase(SearchLocationManuallyGPSDisabledTest.java:62)

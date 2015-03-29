@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<configuration>
+	<DRIVER_URL>
+		<default>http://127.0.0.1:4723/wd/hub</default>
+	</DRIVER_URL>
+	
+	<APP_NAME>
+		<default>TinyOwl.apk</default>
+	</APP_NAME>
+	
+	<DEVICE_NAME>
+		<default>MotoG</default>
+	</DEVICE_NAME>
+		
+	<PLATFORM_VERSION>
+		<default>5.0.2</default>
+	</PLATFORM_VERSION>
+	
+	<PLATFORM_NAME>
+		<default>Android</default>
+	</PLATFORM_NAME>
+	
+	<APP_PACKAGE>
+		<default>com.flutterbee.tinyowl</default>
+	</APP_PACKAGE>
+	
+	<APP_ACTIVITY>
+		<default>com.flutterbee.tinyowl.SplashActivity</default>
+	</APP_ACTIVITY>
+	
+	<WaitTime>
+		<default>5</default>
+	</WaitTime>
+	
+</configuration>

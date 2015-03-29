@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Elphinstone College, Mumbai, Maharashtra, India - ]]>
+    </line>
+    <line>
+      <![CDATA[The Pantry Cafe']]>
+    </line>
+    <line>
+      <![CDATA[Mocambo Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Churchill]]>
+    </line>
+    <line>
+      <![CDATA[Pratap Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Harish Refreshment]]>
+    </line>
+    <line>
+      <![CDATA[Mao Family Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Lalit Refreshments]]>
+    </line>
+    <line>
+      <![CDATA[National Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Lalit Refreshment-Taste Of Kerala]]>
+    </line>
+    <line>
+      <![CDATA[6Th Street Yogurt]]>
+    </line>
+    <line>
+      <![CDATA[Bombay Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[New Edward Bakery]]>
+    </line>
+    <line>
+      <![CDATA[Edward Bakery]]>
+    </line>
+    <line>
+      <![CDATA[Liberty Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Paris]]>
+    </line>
+    <line>
+      <![CDATA[Shaan Chinese Corner]]>
+    </line>
+    <line>
+      <![CDATA[210 Degrees]]>
+    </line>
+    <line>
+      <![CDATA[Kya Miyaa!]]>
+    </line>
+    <line>
+      <![CDATA[Pronto]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Markiv's]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Mr. Chow's]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Darbar]]>
+    </line>
+    <line>
+      <![CDATA[Apna Fast Food Centre]]>
+    </line>
+    <line>
+      <![CDATA[Leo's Boulangerie]]>
+    </line>
+    <line>
+      <![CDATA[Kaisar E Hind]]>
+    </line>
+    <line>
+      <![CDATA[Shri Ganesh Krupa Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Hindustan Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Mezban]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Chikita]]>
+    </line>
+    <line>
+      <![CDATA[Aye Dios Mio]]>
+    </line>
+    <line>
+      <![CDATA[Colaba Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Shubh Sagar]]>
+    </line>
+    <line>
+      <![CDATA[Sahibaan]]>
+    </line>
+    <line>
+      <![CDATA[Leopold Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Jimmy Boy]]>
+    </line>
+    <line>
+      <![CDATA[Maharashtra Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Ayub's]]>
+    </line>
+    <line>
+      <![CDATA[Subway]]>
+    </line>
+    <line>
+      <![CDATA[Jaffer Bhai's Delhi Darbar]]>
+    </line>
+    <line>
+      <![CDATA[Patel Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Metro]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Firdos]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Excelsior]]>
+    </line>
+    <line>
+      <![CDATA[Vithal's Family Restaurant And Bar]]>
+    </line>
+    <line>
+      <![CDATA[Hind Chinese]]>
+    </line>
+    <line>
+      <![CDATA[Carter's Blue]]>
+    </line>
+    <line>
+      <![CDATA[Punjabi Moti Halwai]]>
+    </line>
+    <line>
+      <![CDATA[Jai Jalaram Sweets & Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Spices & Flavours]]>
+    </line>
+    <line>
+      <![CDATA[Choco Mania]]>
+    </line>
+    <line>
+      <![CDATA[Usmaniya Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Patil Juice Center]]>
+    </line>
+    <line>
+      <![CDATA[Dark Temptations]]>
+    </line>
+    <line>
+      <![CDATA[Kurry Club]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Pejas Pure Veg Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Babulnath Dosa Center]]>
+    </line>
+    <line>
+      <![CDATA[Aakash Sagar]]>
+    </line>
+    <line>
+      <![CDATA[Apsara Ice Creams]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Zaika]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Suprabhat & Satkar Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Sky Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Dwarka]]>
+    </line>
+    <line>
+      <![CDATA[Femistic Chinese]]>
+    </line>
+    <line>
+      <![CDATA[Brijwasi Toast & Grill Corner]]>
+    </line>
+    <line>
+      <![CDATA[Balgi Hotel]]>
+    </line>
+    <line>
+      <![CDATA[No 1 Roll]]>
+    </line>
+    <line>
+      <![CDATA[Farhang Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Pancharatna Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Food Plaza]]>
+    </line>
+    <line>
+      <![CDATA[Oye Kake]]>
+    </line>
+    <line>
+      <![CDATA[Sizzling China]]>
+    </line>
+    <line>
+      <![CDATA[Mahesh Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Great Western Fast Food Corner]]>
+    </line>
+    <line>
+      <![CDATA[Happiness Deli]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Mishtan Bhojnalaya]]>
+    </line>
+    <line>
+      <![CDATA[For Heavens Cakes]]>
+    </line>
+    <line>
+      <![CDATA[Imbiss]]>
+    </line>
+    <line>
+      <![CDATA[Anubhav Bar And Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Gary's]]>
+    </line>
+    <line>
+      <![CDATA[New Udipi Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[H. Paramesha Fast Food Corner]]>
+    </line>
+    <line>
+      <![CDATA[Jay Snacks]]>
+    </line>
+    <line>
+      <![CDATA[New Neelam Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Laxmi Vilas]]>
+    </line>
+    <line>
+      <![CDATA[Sudha Fast Food]]>
+    </line>
+  </reporter-output>
+  <suite name="tinyOwlLocationTests" duration-ms="335197" started-at="2015-03-29T13:24:46Z" finished-at="2015-03-29T13:30:22Z">
+    <groups>
+    </groups>
+    <test name="TC_03" duration-ms="72765" started-at="2015-03-29T13:24:46Z" finished-at="2015-03-29T13:25:59Z">
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1bc7afb]" name="checkGPS" is-config="true" duration-ms="32880" started-at="2015-03-29T18:54:46Z" finished-at="2015-03-29T18:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="FAIL" signature="EnterLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1bc7afb]" name="EnterLocationManuallyGPSEnabledTestCase" duration-ms="37883" started-at="2015-03-29T18:55:19Z" finished-at="2015-03-29T18:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Virar]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Currently Not Active in Virar East, Virar, Maharashtra, India]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Currently Not Active in Virar East, Virar, Maharashtra, India
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.ManualLocationEntryPage.selectLocationManually(ManualLocationEntryPage.java:112)
+	at com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest.EnterLocationManuallyGPSEnabledTestCase(SearchLocationManuallyGPSEnabledTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EnterLocationManuallyGPSEnabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1bc7afb]" name="teardown" is-config="true" duration-ms="1988" started-at="2015-03-29T18:55:57Z" finished-at="2015-03-29T18:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
+    </test> <!-- TC_03 -->
+    <test name="TC_04" duration-ms="262389" started-at="2015-03-29T13:25:59Z" finished-at="2015-03-29T13:30:22Z">
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1684286]" name="checkGPS" is-config="true" duration-ms="31506" started-at="2015-03-29T18:55:59Z" finished-at="2015-03-29T18:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="PASS" signature="SearchLocationManuallyGPSDisabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1684286]" name="SearchLocationManuallyGPSDisabledTestCase" duration-ms="228978" started-at="2015-03-29T18:56:31Z" finished-at="2015-03-29T19:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Elphinstone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Elphinstone College, Mumbai, Maharashtra, India - ]]>
+            </line>
+            <line>
+              <![CDATA[The Pantry Cafe']]>
+            </line>
+            <line>
+              <![CDATA[Mocambo Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Churchill]]>
+            </line>
+            <line>
+              <![CDATA[Pratap Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Harish Refreshment]]>
+            </line>
+            <line>
+              <![CDATA[Mao Family Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Lalit Refreshments]]>
+            </line>
+            <line>
+              <![CDATA[National Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Lalit Refreshment-Taste Of Kerala]]>
+            </line>
+            <line>
+              <![CDATA[6Th Street Yogurt]]>
+            </line>
+            <line>
+              <![CDATA[Bombay Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[New Edward Bakery]]>
+            </line>
+            <line>
+              <![CDATA[Edward Bakery]]>
+            </line>
+            <line>
+              <![CDATA[Liberty Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Paris]]>
+            </line>
+            <line>
+              <![CDATA[Shaan Chinese Corner]]>
+            </line>
+            <line>
+              <![CDATA[210 Degrees]]>
+            </line>
+            <line>
+              <![CDATA[Kya Miyaa!]]>
+            </line>
+            <line>
+              <![CDATA[Pronto]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Markiv's]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Mr. Chow's]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Darbar]]>
+            </line>
+            <line>
+              <![CDATA[Apna Fast Food Centre]]>
+            </line>
+            <line>
+              <![CDATA[Leo's Boulangerie]]>
+            </line>
+            <line>
+              <![CDATA[Kaisar E Hind]]>
+            </line>
+            <line>
+              <![CDATA[Shri Ganesh Krupa Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Hindustan Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Mezban]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Chikita]]>
+            </line>
+            <line>
+              <![CDATA[Aye Dios Mio]]>
+            </line>
+            <line>
+              <![CDATA[Colaba Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Shubh Sagar]]>
+            </line>
+            <line>
+              <![CDATA[Sahibaan]]>
+            </line>
+            <line>
+              <![CDATA[Leopold Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Jimmy Boy]]>
+            </line>
+            <line>
+              <![CDATA[Maharashtra Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Ayub's]]>
+            </line>
+            <line>
+              <![CDATA[Subway]]>
+            </line>
+            <line>
+              <![CDATA[Jaffer Bhai's Delhi Darbar]]>
+            </line>
+            <line>
+              <![CDATA[Patel Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Metro]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Firdos]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Excelsior]]>
+            </line>
+            <line>
+              <![CDATA[Vithal's Family Restaurant And Bar]]>
+            </line>
+            <line>
+              <![CDATA[Hind Chinese]]>
+            </line>
+            <line>
+              <![CDATA[Carter's Blue]]>
+            </line>
+            <line>
+              <![CDATA[Punjabi Moti Halwai]]>
+            </line>
+            <line>
+              <![CDATA[Jai Jalaram Sweets & Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Spices & Flavours]]>
+            </line>
+            <line>
+              <![CDATA[Choco Mania]]>
+            </line>
+            <line>
+              <![CDATA[Usmaniya Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Patil Juice Center]]>
+            </line>
+            <line>
+              <![CDATA[Dark Temptations]]>
+            </line>
+            <line>
+              <![CDATA[Kurry Club]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Pejas Pure Veg Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Babulnath Dosa Center]]>
+            </line>
+            <line>
+              <![CDATA[Aakash Sagar]]>
+            </line>
+            <line>
+              <![CDATA[Apsara Ice Creams]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Zaika]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Suprabhat & Satkar Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Sky Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Dwarka]]>
+            </line>
+            <line>
+              <![CDATA[Femistic Chinese]]>
+            </line>
+            <line>
+              <![CDATA[Brijwasi Toast & Grill Corner]]>
+            </line>
+            <line>
+              <![CDATA[Balgi Hotel]]>
+            </line>
+            <line>
+              <![CDATA[No 1 Roll]]>
+            </line>
+            <line>
+              <![CDATA[Farhang Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Pancharatna Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Food Plaza]]>
+            </line>
+            <line>
+              <![CDATA[Oye Kake]]>
+            </line>
+            <line>
+              <![CDATA[Sizzling China]]>
+            </line>
+            <line>
+              <![CDATA[Mahesh Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Great Western Fast Food Corner]]>
+            </line>
+            <line>
+              <![CDATA[Happiness Deli]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Mishtan Bhojnalaya]]>
+            </line>
+            <line>
+              <![CDATA[For Heavens Cakes]]>
+            </line>
+            <line>
+              <![CDATA[Imbiss]]>
+            </line>
+            <line>
+              <![CDATA[Anubhav Bar And Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Gary's]]>
+            </line>
+            <line>
+              <![CDATA[New Udipi Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[H. Paramesha Fast Food Corner]]>
+            </line>
+            <line>
+              <![CDATA[Jay Snacks]]>
+            </line>
+            <line>
+              <![CDATA[New Neelam Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Laxmi Vilas]]>
+            </line>
+            <line>
+              <![CDATA[Sudha Fast Food]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchLocationManuallyGPSDisabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1684286]" name="teardown" is-config="true" duration-ms="1902" started-at="2015-03-29T19:00:20Z" finished-at="2015-03-29T19:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
+    </test> <!-- TC_04 -->
+  </suite> <!-- tinyOwlLocationTests -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
+        <methods>
+          <include name="EnterLocationManuallyGPSEnabledTestCase"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <methods>
+          <include name="SearchLocationManuallyGPSDisabledTestCase"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
+      <class name="com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest">
+        <methods>
+          <include name="DefaultLocationGPSEnabledTestCase"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest -->
+      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
+        <methods>
+          <include name="CurrentLocationGPSDisabledTestCase"/>
+          <include name="checkGPS"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

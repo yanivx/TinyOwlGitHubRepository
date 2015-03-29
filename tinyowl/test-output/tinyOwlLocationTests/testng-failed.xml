@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [tinyOwlLocationTests]">
+  <parameter name="location" value="Elphinstone"/>
+  <test name="TC_03(failed)">
+    <parameter name="location" value="Virar"/>
+    <classes>
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
+        <methods>
+          <include name="checkGPS"/>
+          <include name="EnterLocationManuallyGPSEnabledTestCase" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkGPS"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
+    </classes>
+  </test> <!-- TC_03(failed) -->
+</suite> <!-- Failed suite [tinyOwlLocationTests] -->

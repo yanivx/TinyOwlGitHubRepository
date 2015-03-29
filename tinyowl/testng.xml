@@ -1,0 +1,46 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="tinyOwlLocationTests">
+  <!-- 
+    <test name="TC_01">
+		<classes>
+		  <class name="com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest" >
+			  <methods>
+	                    <include name="DefaultLocationGPSEnabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+  
+    <test name="TC_02">
+		<classes>
+		  <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest" >
+			  <methods>
+	                    <include name="CurrentLocationGPSDisabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+    --> 
+    <test name="TC_03">
+		<parameter name="location" value="Virar" />
+		<classes>
+		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" >
+			  <methods>
+	                    <include name="EnterLocationManuallyGPSEnabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+   
+    <test name="TC_04">
+		<parameter name="location" value="Elphinstone" />
+		<classes>
+		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest" >
+			  <methods>
+	                    <include name="SearchLocationManuallyGPSDisabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+    
+</suite>

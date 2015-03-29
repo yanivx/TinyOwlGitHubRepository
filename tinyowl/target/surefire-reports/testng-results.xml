@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[
+Executing - DefaultLocationGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Pandurang Budhkar Marg, Kamagar Nagar Number 1, Century Mills, Lower Parel - ]]>
+    </line>
+    <line>
+      <![CDATA[Box8]]>
+    </line>
+    <line>
+      <![CDATA[Juicytarian]]>
+    </line>
+    <line>
+      <![CDATA[Pure Veg Popular]]>
+    </line>
+    <line>
+      <![CDATA[Hari Om Snacks]]>
+    </line>
+    <line>
+      <![CDATA[Belstone Pure Veg]]>
+    </line>
+    <line>
+      <![CDATA[Havmor's]]>
+    </line>
+    <line>
+      <![CDATA[Alankar]]>
+    </line>
+    <line>
+      <![CDATA[Laziz Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Behzad Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Pooja Bar & Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Edesia Cake & Ice Cream Corner]]>
+    </line>
+    <line>
+      <![CDATA[Hangla's]]>
+    </line>
+    <line>
+      <![CDATA[Shree Krishna Veg Diet]]>
+    </line>
+    <line>
+      <![CDATA[Saoji Tadka]]>
+    </line>
+    <line>
+      <![CDATA[Meal Box Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Local Bites]]>
+    </line>
+    <line>
+      <![CDATA[Status]]>
+    </line>
+    <line>
+      <![CDATA[Pronto]]>
+    </line>
+    <line>
+      <![CDATA[Monginis]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Feeast@East]]>
+    </line>
+    <line>
+      <![CDATA[Cake Me Away]]>
+    </line>
+    <line>
+      <![CDATA[Aroma Lets Celebrate]]>
+    </line>
+    <line>
+      <![CDATA[Divine Delicacy]]>
+    </line>
+    <line>
+      <![CDATA[Tastee]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Edesia]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Kalpana Restaurant & Bar]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Free India]]>
+    </line>
+    <line>
+      <![CDATA[Francesco's Pizzeria]]>
+    </line>
+    <line>
+      <![CDATA[Chovisam Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Havmor]]>
+    </line>
+    <line>
+      <![CDATA[Sin City]]>
+    </line>
+    <line>
+      <![CDATA[Kubera]]>
+    </line>
+    <line>
+      <![CDATA[Foodish-The Happy Food]]>
+    </line>
+    <line>
+      <![CDATA[Zaffran]]>
+    </line>
+    <line>
+      <![CDATA[Shree Sharda]]>
+    </line>
+    <line>
+      <![CDATA[Subway]]>
+    </line>
+    <line>
+      <![CDATA[Howra]]>
+    </line>
+    <line>
+      <![CDATA[Persian Darbar]]>
+    </line>
+    <line>
+      <![CDATA[Tibbs Frankie]]>
+    </line>
+    <line>
+      <![CDATA[On Rolls]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Zaika]]>
+    </line>
+    <line>
+      <![CDATA[And Chillies]]>
+    </line>
+    <line>
+      <![CDATA[China Hut]]>
+    </line>
+    <line>
+      <![CDATA[Malvani Katta]]>
+    </line>
+    <line>
+      <![CDATA[Bom Tasty Treat]]>
+    </line>
+    <line>
+      <![CDATA[Ramnath Damodar Sandwich]]>
+    </line>
+    <line>
+      <![CDATA[Changbhal]]>
+    </line>
+    <line>
+      <![CDATA[China Suburb]]>
+    </line>
+    <line>
+      <![CDATA[Maharaja]]>
+    </line>
+    <line>
+      <![CDATA[Modern Family Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Food Mine]]>
+    </line>
+    <line>
+      <![CDATA[Gupta Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Sarang Bandhu]]>
+    </line>
+    <line>
+      <![CDATA[House Of Nirvana Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Punjabi Tadka By Crystal]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Sujay]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Raviraj]]>
+    </line>
+    <line>
+      <![CDATA[7 Spice Chinese Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Sangam Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Shang Dynasty]]>
+    </line>
+    <line>
+      <![CDATA[Home Deli]]>
+    </line>
+    <line>
+      <![CDATA[New Laxmi Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Utsav]]>
+    </line>
+    <line>
+      <![CDATA[Flavours Of China]]>
+    </line>
+    <line>
+      <![CDATA[Chinese Corner]]>
+    </line>
+    <line>
+      <![CDATA[Light Of Bharat]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Shree Swami Samarth]]>
+    </line>
+    <line>
+      <![CDATA[Cool Spot]]>
+    </line>
+    <line>
+      <![CDATA[Ambika Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Icy Spicy Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Wok & Roll]]>
+    </line>
+    <line>
+      <![CDATA[Creme House]]>
+    </line>
+    <line>
+      <![CDATA[Veg Grills & Fries]]>
+    </line>
+    <line>
+      <![CDATA[Ambience]]>
+    </line>
+    <line>
+      <![CDATA[Grills And Wok]]>
+    </line>
+    <line>
+      <![CDATA[Sudama]]>
+    </line>
+    <line>
+      <![CDATA[Orientals Kitchen]]>
+    </line>
+    <line>
+      <![CDATA[China Bistro]]>
+    </line>
+    <line>
+      <![CDATA[Chilli House]]>
+    </line>
+    <line>
+      <![CDATA[Amazing China]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - CurrentLocationGPSDisabledTest]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Dadar, Mumbai, Maharashtra, India - ]]>
+    </line>
+    <line>
+      <![CDATA[Fric N Floc]]>
+    </line>
+    <line>
+      <![CDATA[Prabhu's Udipi Refreshment]]>
+    </line>
+    <line>
+      <![CDATA[Shree Swami Samarth Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Box8]]>
+    </line>
+    <line>
+      <![CDATA[Saffron]]>
+    </line>
+    <line>
+      <![CDATA[Tasty Sandwich And Pizza Corner]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Munch]]>
+    </line>
+    <line>
+      <![CDATA[Awadhpuri Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Chandra Prakash]]>
+    </line>
+    <line>
+      <![CDATA[Sujata Veg Treat]]>
+    </line>
+    <line>
+      <![CDATA[Monginis]]>
+    </line>
+    <line>
+      <![CDATA[Zelos N Zest]]>
+    </line>
+    <line>
+      <![CDATA[Gold Rushs]]>
+    </line>
+    <line>
+      <![CDATA[Favourites]]>
+    </line>
+    <line>
+      <![CDATA[Famous Frankie Corner]]>
+    </line>
+    <line>
+      <![CDATA[Shree Krishna Veg Diet]]>
+    </line>
+    <line>
+      <![CDATA[Subway]]>
+    </line>
+    <line>
+      <![CDATA[Ambretto]]>
+    </line>
+    <line>
+      <![CDATA[Khans]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Chovisam Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Srinathjis]]>
+    </line>
+    <line>
+      <![CDATA[Sin City Cakes And Bakes]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Omkar]]>
+    </line>
+    <line>
+      <![CDATA[Foodish-The Happy Food]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Baba Falooda]]>
+    </line>
+    <line>
+      <![CDATA[Sneha Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Howra]]>
+    </line>
+    <line>
+      <![CDATA[Saffron 12]]>
+    </line>
+    <line>
+      <![CDATA[Shiv Palace Restaurant And Bar]]>
+    </line>
+    <line>
+      <![CDATA[I Love Food]]>
+    </line>
+    <line>
+      <![CDATA[Rasna Punjab]]>
+    </line>
+    <line>
+      <![CDATA[Icy Spicy Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Saibini Gomantak]]>
+    </line>
+    <line>
+      <![CDATA[Anand Bhuwan The Dining Bar]]>
+    </line>
+    <line>
+      <![CDATA[Sarang Bandhu]]>
+    </line>
+    <line>
+      <![CDATA[Wok & Roll]]>
+    </line>
+    <line>
+      <![CDATA[Potoba]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Sujay]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Sheetal]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Aroma Lets Celebrate]]>
+    </line>
+    <line>
+      <![CDATA[Home Deli]]>
+    </line>
+    <line>
+      <![CDATA[Downtown Dhaba]]>
+    </line>
+    <line>
+      <![CDATA[Chilli House]]>
+    </line>
+    <line>
+      <![CDATA[Flavours]]>
+    </line>
+    <line>
+      <![CDATA[Home Kitchen Company]]>
+    </line>
+    <line>
+      <![CDATA[Diva Maharashtracha]]>
+    </line>
+    <line>
+      <![CDATA[Goa Portuguesa]]>
+    </line>
+    <line>
+      <![CDATA[Dakshin Culture Curry]]>
+    </line>
+    <line>
+      <![CDATA[Little China]]>
+    </line>
+    <line>
+      <![CDATA[New Garam Masala]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Ching - Ki - Shack]]>
+    </line>
+    <line>
+      <![CDATA[The Baker's Dozen]]>
+    </line>
+    <line>
+      <![CDATA[China Bistro]]>
+    </line>
+    <line>
+      <![CDATA[Sushegad Gomantak]]>
+    </line>
+    <line>
+      <![CDATA[Stepiin Bar & Kitchen]]>
+    </line>
+    <line>
+      <![CDATA[Megh Darshan Gomantak And Chinese Cuisine]]>
+    </line>
+    <line>
+      <![CDATA[Japps]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Malwan Kinara]]>
+    </line>
+    <line>
+      <![CDATA[Hilton's]]>
+    </line>
+    <line>
+      <![CDATA[Sujata Annexe]]>
+    </line>
+    <line>
+      <![CDATA[Chaitanya]]>
+    </line>
+    <line>
+      <![CDATA[Aroma]]>
+    </line>
+    <line>
+      <![CDATA[Lazeez Xpress]]>
+    </line>
+    <line>
+      <![CDATA[Light Of Bharat]]>
+    </line>
+    <line>
+      <![CDATA[Flavours Of China]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+    </line>
+  </reporter-output>
+  <suite name="tinyOwlLocationTests" duration-ms="622948" started-at="2015-03-29T11:16:59Z" finished-at="2015-03-29T11:27:22Z">
+    <groups>
+    </groups>
+    <test name="TC_01" duration-ms="245607" started-at="2015-03-29T11:16:59Z" finished-at="2015-03-29T11:21:05Z">
+      <class name="com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest@1143ee9]" name="checkGPS" is-config="true" duration-ms="32366" started-at="2015-03-29T16:46:59Z" finished-at="2015-03-29T16:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="PASS" signature="DefaultLocationGPSEnabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest@1143ee9]" name="DefaultLocationGPSEnabledTestCase" duration-ms="207851" started-at="2015-03-29T16:47:32Z" finished-at="2015-03-29T16:50:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - DefaultLocationGPSEnabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Pandurang Budhkar Marg, Kamagar Nagar Number 1, Century Mills, Lower Parel - ]]>
+            </line>
+            <line>
+              <![CDATA[Box8]]>
+            </line>
+            <line>
+              <![CDATA[Juicytarian]]>
+            </line>
+            <line>
+              <![CDATA[Pure Veg Popular]]>
+            </line>
+            <line>
+              <![CDATA[Hari Om Snacks]]>
+            </line>
+            <line>
+              <![CDATA[Belstone Pure Veg]]>
+            </line>
+            <line>
+              <![CDATA[Havmor's]]>
+            </line>
+            <line>
+              <![CDATA[Alankar]]>
+            </line>
+            <line>
+              <![CDATA[Laziz Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Behzad Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Pooja Bar & Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Edesia Cake & Ice Cream Corner]]>
+            </line>
+            <line>
+              <![CDATA[Hangla's]]>
+            </line>
+            <line>
+              <![CDATA[Shree Krishna Veg Diet]]>
+            </line>
+            <line>
+              <![CDATA[Saoji Tadka]]>
+            </line>
+            <line>
+              <![CDATA[Meal Box Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Local Bites]]>
+            </line>
+            <line>
+              <![CDATA[Status]]>
+            </line>
+            <line>
+              <![CDATA[Pronto]]>
+            </line>
+            <line>
+              <![CDATA[Monginis]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Feeast@East]]>
+            </line>
+            <line>
+              <![CDATA[Cake Me Away]]>
+            </line>
+            <line>
+              <![CDATA[Aroma Lets Celebrate]]>
+            </line>
+            <line>
+              <![CDATA[Divine Delicacy]]>
+            </line>
+            <line>
+              <![CDATA[Tastee]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Edesia]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Kalpana Restaurant & Bar]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Free India]]>
+            </line>
+            <line>
+              <![CDATA[Francesco's Pizzeria]]>
+            </line>
+            <line>
+              <![CDATA[Chovisam Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Havmor]]>
+            </line>
+            <line>
+              <![CDATA[Sin City]]>
+            </line>
+            <line>
+              <![CDATA[Kubera]]>
+            </line>
+            <line>
+              <![CDATA[Foodish-The Happy Food]]>
+            </line>
+            <line>
+              <![CDATA[Zaffran]]>
+            </line>
+            <line>
+              <![CDATA[Shree Sharda]]>
+            </line>
+            <line>
+              <![CDATA[Subway]]>
+            </line>
+            <line>
+              <![CDATA[Howra]]>
+            </line>
+            <line>
+              <![CDATA[Persian Darbar]]>
+            </line>
+            <line>
+              <![CDATA[Tibbs Frankie]]>
+            </line>
+            <line>
+              <![CDATA[On Rolls]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Zaika]]>
+            </line>
+            <line>
+              <![CDATA[And Chillies]]>
+            </line>
+            <line>
+              <![CDATA[China Hut]]>
+            </line>
+            <line>
+              <![CDATA[Malvani Katta]]>
+            </line>
+            <line>
+              <![CDATA[Bom Tasty Treat]]>
+            </line>
+            <line>
+              <![CDATA[Ramnath Damodar Sandwich]]>
+            </line>
+            <line>
+              <![CDATA[Changbhal]]>
+            </line>
+            <line>
+              <![CDATA[China Suburb]]>
+            </line>
+            <line>
+              <![CDATA[Maharaja]]>
+            </line>
+            <line>
+              <![CDATA[Modern Family Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Food Mine]]>
+            </line>
+            <line>
+              <![CDATA[Gupta Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Sarang Bandhu]]>
+            </line>
+            <line>
+              <![CDATA[House Of Nirvana Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Punjabi Tadka By Crystal]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Sujay]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Raviraj]]>
+            </line>
+            <line>
+              <![CDATA[7 Spice Chinese Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Sangam Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Shang Dynasty]]>
+            </line>
+            <line>
+              <![CDATA[Home Deli]]>
+            </line>
+            <line>
+              <![CDATA[New Laxmi Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Utsav]]>
+            </line>
+            <line>
+              <![CDATA[Flavours Of China]]>
+            </line>
+            <line>
+              <![CDATA[Chinese Corner]]>
+            </line>
+            <line>
+              <![CDATA[Light Of Bharat]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Shree Swami Samarth]]>
+            </line>
+            <line>
+              <![CDATA[Cool Spot]]>
+            </line>
+            <line>
+              <![CDATA[Ambika Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Icy Spicy Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Wok & Roll]]>
+            </line>
+            <line>
+              <![CDATA[Creme House]]>
+            </line>
+            <line>
+              <![CDATA[Veg Grills & Fries]]>
+            </line>
+            <line>
+              <![CDATA[Ambience]]>
+            </line>
+            <line>
+              <![CDATA[Grills And Wok]]>
+            </line>
+            <line>
+              <![CDATA[Sudama]]>
+            </line>
+            <line>
+              <![CDATA[Orientals Kitchen]]>
+            </line>
+            <line>
+              <![CDATA[China Bistro]]>
+            </line>
+            <line>
+              <![CDATA[Chilli House]]>
+            </line>
+            <line>
+              <![CDATA[Amazing China]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DefaultLocationGPSEnabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest@1143ee9]" name="teardown" is-config="true" duration-ms="5379" started-at="2015-03-29T16:50:59Z" finished-at="2015-03-29T16:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest -->
+    </test> <!-- TC_01 -->
+    <test name="TC_02" duration-ms="71876" started-at="2015-03-29T11:21:05Z" finished-at="2015-03-29T11:22:17Z">
+      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@c7c2a6]" name="checkGPS" is-config="true" duration-ms="35129" started-at="2015-03-29T16:51:05Z" finished-at="2015-03-29T16:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="FAIL" signature="CurrentLocationGPSDisabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@c7c2a6]" name="CurrentLocationGPSDisabledTestCase" duration-ms="31869" started-at="2015-03-29T16:51:40Z" finished-at="2015-03-29T16:52:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Restaurants list is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Restaurants list is not displayed
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest.CurrentLocationGPSDisabledTestCase(CurrentLocationGPSDisabledTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - CurrentLocationGPSDisabledTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CurrentLocationGPSDisabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@c7c2a6]" name="teardown" is-config="true" duration-ms="4872" started-at="2015-03-29T16:52:12Z" finished-at="2015-03-29T16:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
+    </test> <!-- TC_02 -->
+    <test name="TC_03" duration-ms="222535" started-at="2015-03-29T11:22:17Z" finished-at="2015-03-29T11:25:59Z">
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1afa04c]" name="checkGPS" is-config="true" duration-ms="31874" started-at="2015-03-29T16:52:17Z" finished-at="2015-03-29T16:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="PASS" signature="EnterLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1afa04c]" name="EnterLocationManuallyGPSEnabledTestCase" duration-ms="185572" started-at="2015-03-29T16:52:49Z" finished-at="2015-03-29T16:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dadar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Dadar, Mumbai, Maharashtra, India - ]]>
+            </line>
+            <line>
+              <![CDATA[Fric N Floc]]>
+            </line>
+            <line>
+              <![CDATA[Prabhu's Udipi Refreshment]]>
+            </line>
+            <line>
+              <![CDATA[Shree Swami Samarth Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Box8]]>
+            </line>
+            <line>
+              <![CDATA[Saffron]]>
+            </line>
+            <line>
+              <![CDATA[Tasty Sandwich And Pizza Corner]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Munch]]>
+            </line>
+            <line>
+              <![CDATA[Awadhpuri Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Chandra Prakash]]>
+            </line>
+            <line>
+              <![CDATA[Sujata Veg Treat]]>
+            </line>
+            <line>
+              <![CDATA[Monginis]]>
+            </line>
+            <line>
+              <![CDATA[Zelos N Zest]]>
+            </line>
+            <line>
+              <![CDATA[Gold Rushs]]>
+            </line>
+            <line>
+              <![CDATA[Favourites]]>
+            </line>
+            <line>
+              <![CDATA[Famous Frankie Corner]]>
+            </line>
+            <line>
+              <![CDATA[Shree Krishna Veg Diet]]>
+            </line>
+            <line>
+              <![CDATA[Subway]]>
+            </line>
+            <line>
+              <![CDATA[Ambretto]]>
+            </line>
+            <line>
+              <![CDATA[Khans]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Chovisam Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Srinathjis]]>
+            </line>
+            <line>
+              <![CDATA[Sin City Cakes And Bakes]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Omkar]]>
+            </line>
+            <line>
+              <![CDATA[Foodish-The Happy Food]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Baba Falooda]]>
+            </line>
+            <line>
+              <![CDATA[Sneha Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Howra]]>
+            </line>
+            <line>
+              <![CDATA[Saffron 12]]>
+            </line>
+            <line>
+              <![CDATA[Shiv Palace Restaurant And Bar]]>
+            </line>
+            <line>
+              <![CDATA[I Love Food]]>
+            </line>
+            <line>
+              <![CDATA[Rasna Punjab]]>
+            </line>
+            <line>
+              <![CDATA[Icy Spicy Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Saibini Gomantak]]>
+            </line>
+            <line>
+              <![CDATA[Anand Bhuwan The Dining Bar]]>
+            </line>
+            <line>
+              <![CDATA[Sarang Bandhu]]>
+            </line>
+            <line>
+              <![CDATA[Wok & Roll]]>
+            </line>
+            <line>
+              <![CDATA[Potoba]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Sujay]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Sheetal]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Aroma Lets Celebrate]]>
+            </line>
+            <line>
+              <![CDATA[Home Deli]]>
+            </line>
+            <line>
+              <![CDATA[Downtown Dhaba]]>
+            </line>
+            <line>
+              <![CDATA[Chilli House]]>
+            </line>
+            <line>
+              <![CDATA[Flavours]]>
+            </line>
+            <line>
+              <![CDATA[Home Kitchen Company]]>
+            </line>
+            <line>
+              <![CDATA[Diva Maharashtracha]]>
+            </line>
+            <line>
+              <![CDATA[Goa Portuguesa]]>
+            </line>
+            <line>
+              <![CDATA[Dakshin Culture Curry]]>
+            </line>
+            <line>
+              <![CDATA[Little China]]>
+            </line>
+            <line>
+              <![CDATA[New Garam Masala]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Ching - Ki - Shack]]>
+            </line>
+            <line>
+              <![CDATA[The Baker's Dozen]]>
+            </line>
+            <line>
+              <![CDATA[China Bistro]]>
+            </line>
+            <line>
+              <![CDATA[Sushegad Gomantak]]>
+            </line>
+            <line>
+              <![CDATA[Stepiin Bar & Kitchen]]>
+            </line>
+            <line>
+              <![CDATA[Megh Darshan Gomantak And Chinese Cuisine]]>
+            </line>
+            <line>
+              <![CDATA[Japps]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Malwan Kinara]]>
+            </line>
+            <line>
+              <![CDATA[Hilton's]]>
+            </line>
+            <line>
+              <![CDATA[Sujata Annexe]]>
+            </line>
+            <line>
+              <![CDATA[Chaitanya]]>
+            </line>
+            <line>
+              <![CDATA[Aroma]]>
+            </line>
+            <line>
+              <![CDATA[Lazeez Xpress]]>
+            </line>
+            <line>
+              <![CDATA[Light Of Bharat]]>
+            </line>
+            <line>
+              <![CDATA[Flavours Of China]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EnterLocationManuallyGPSEnabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1afa04c]" name="teardown" is-config="true" duration-ms="5087" started-at="2015-03-29T16:55:54Z" finished-at="2015-03-29T16:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
+    </test> <!-- TC_03 -->
+    <test name="TC_04" duration-ms="82822" started-at="2015-03-29T11:25:59Z" finished-at="2015-03-29T11:27:22Z">
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1e8b406]" name="checkGPS" is-config="true" duration-ms="36006" started-at="2015-03-29T16:55:59Z" finished-at="2015-03-29T16:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGPS -->
+        <test-method status="FAIL" signature="SearchLocationManuallyGPSDisabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1e8b406]" name="SearchLocationManuallyGPSDisabledTestCase" duration-ms="41915" started-at="2015-03-29T16:56:35Z" finished-at="2015-03-29T16:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Andheri]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable To Fetch Restaurants in Andheri East, Mumbai, Maharashtra, India]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable To Fetch Restaurants in Andheri East, Mumbai, Maharashtra, India
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.ManualLocationEntryPage.selectLocationManually(ManualLocationEntryPage.java:112)
+	at com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest.SearchLocationManuallyGPSDisabledTestCase(SearchLocationManuallyGPSDisabledTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchLocationManuallyGPSDisabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@1e8b406]" name="teardown" is-config="true" duration-ms="4900" started-at="2015-03-29T16:57:17Z" finished-at="2015-03-29T16:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
+    </test> <!-- TC_04 -->
+  </suite> <!-- tinyOwlLocationTests -->
+</testng-results>

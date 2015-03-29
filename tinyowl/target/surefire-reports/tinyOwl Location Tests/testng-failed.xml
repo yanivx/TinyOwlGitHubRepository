@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [tinyOwl Location Tests]">
+  <test name="Location Tests(failed)">
+    <classes>
+      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="CurrentLocationGPSDisabledTestCase"/>
+          <include name="checkGPS"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
+      <class name="com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest">
+        <methods>
+          <include name="checkGPS"/>
+          <include name="DefaultLocationGPSEnabledTestCase"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest -->
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <methods>
+          <include name="SearchLocationManuallyGPSDisabledTestCase"/>
+          <include name="checkGPS"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
+    </classes>
+  </test> <!-- Location Tests(failed) -->
+</suite> <!-- Failed suite [tinyOwl Location Tests] -->
