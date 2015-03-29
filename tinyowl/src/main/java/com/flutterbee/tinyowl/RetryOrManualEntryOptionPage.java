@@ -13,6 +13,10 @@ public class RetryOrManualEntryOptionPage extends Page {
 		PageFactory.initElements(driver, this);
 	}
 
+	/********************************************************************
+     * 						Page Element Declaration
+     ********************************************************************/
+	
 	@FindBy(id="com.flutterbee.tinyowl:id/message_text")
 	WebElement retryText;
 	
@@ -22,7 +26,9 @@ public class RetryOrManualEntryOptionPage extends Page {
 	@FindBy(id="com.flutterbee.tinyowl:id/text_enter_manually")
 	WebElement enterManuallyLink;
 	
-	
+	/********************************************************************
+   	 * 						Page Element Verification
+   	 ********************************************************************/
 	
 	public boolean isRetryOrManualEntryOptionDisplayed()
 	{
@@ -33,6 +39,7 @@ public class RetryOrManualEntryOptionPage extends Page {
     	}
 	}
 	
+	// click retry location link
 	public HomePage clickRetryLocationLink()
 	{
 		if(isRetryOrManualEntryOptionDisplayed())
@@ -47,6 +54,7 @@ public class RetryOrManualEntryOptionPage extends Page {
 		}
 	}
 	
+	// click enter location manually link
 	public ManualLocationEntryPage clickEnterLocationManuallyLink()
 	{
 		if(isRetryOrManualEntryOptionDisplayed())

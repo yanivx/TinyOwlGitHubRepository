@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -18,11 +20,15 @@ public class ManualLocationEntryPage extends Page{
 		PageFactory.initElements(driver, this);
 	}
 
+	 /********************************************************************
+     * 						Page Element Declaration
+     ********************************************************************/	
+
 	@FindBy(id="com.flutterbee.tinyowl:id/location_query_text")
 	WebElement enterManuallyTextBox;
 	
 	@FindBy(id="com.flutterbee.tinyowl:id/locality_listview")
-	WebElement locationMatchListsView;
+	WebElement locationMatchListView;
 	
 	@FindBy(id="com.flutterbee.tinyowl:id/restaurant_progress_and_error_view")
 	WebElement locationNotActiveFrame;
@@ -36,12 +42,19 @@ public class ManualLocationEntryPage extends Page{
 	@FindBy(id="com.flutterbee.tinyowl:id/use_my_location_text")
 	WebElement useMyLocation;
 	
-	public HomePage clickUseMyLocationLink()
+	
+	/********************************************************************
+   	 * 						Page Element Verification
+   	 ********************************************************************/
+	
+	public boolean islocationMatchListViewDisplayed()
 	{
-		useMyLocation.click();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		return new HomePage(driver);
-	}	
+		if(isElementPresent(By.id("com.flutterbee.tinyowl:id/locality_listview"))){
+    		return enterManuallyTextBox.isDisplayed() && enterManuallyTextBox.isEnabled();
+    	}else{
+    		return false;
+    	}
+	}
 	
 	public boolean isLocationNotActiveFrameDisplayed()
 	{
@@ -60,20 +73,33 @@ public class ManualLocationEntryPage extends Page{
     		return false;
     	}
 	}
-		
+	
+	// select My Location link
+	public HomePage clickUseMyLocationLink()
+	{
+		useMyLocation.click();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		return new HomePage(driver);
+	}	
+	
+	// enter location manually		
 	public void enterLocationManually(String loc)
 	{
-		//enterManuallyTextBox.click();
-		//enterManuallyTextBox.clear();
+
 		enterManuallyTextBox.sendKeys(loc);
-		//driver.findElement(MobileBy.AndroidUIAutomator(uiautomatorText))
+		waitForPageToLoad(2);	
 	}
 	
+	// select location manually
 	public HomePage selectLocationManually(String loc)
 	{
-		//enterManuallyTextBox.sendKeys(loc);
+		
 		boolean found=false;
-		List<WebElement> locList = locationMatchListsView.findElements(By.id("com.flutterbee.tinyowl:id/locality_title"));
+		WebDriverWait wb;
+		wb = new WebDriverWait(driver,40);
+		wb.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.flutterbee.tinyowl:id/locality_listview")));
+		
+		List<WebElement> locList = locationMatchListView.findElements(By.id("com.flutterbee.tinyowl:id/locality_title"));
         //List<WebElement> restaurantNamesList = dr.findElementsById("com.flutterbee.tinyowl:id/restaurant_summary_layout");
 		
 		// loop to find exact match
@@ -87,7 +113,7 @@ public class ManualLocationEntryPage extends Page{
 					found=true;
 					break;
 				}
-				else
+				else	// if service is currently not active in the searched location
 				{
 					Reporter.log(locationNotActiveMsg.getText() + " " + locationNotActiveAddr.getText(), true);
 					Assert.fail(locationNotActiveMsg.getText() + " " + locationNotActiveAddr.getText());
@@ -109,7 +135,7 @@ public class ManualLocationEntryPage extends Page{
 						found=true;
 						break;
 					}
-					else
+					else	// if the service is currently not active in searched location
 					{
 						Reporter.log(locationNotActiveMsg.getText() + " " + locationNotActiveAddr.getText(), true);
 						Assert.fail(locationNotActiveMsg.getText() + " " + locationNotActiveAddr.getText());

@@ -9,20 +9,30 @@ import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class DefaultLocationGPSEnabledTest extends BaseTest {
+public class CurrentLocationGPSEnabledTest extends BaseTest {
 	
+	// Enable GPS (Location) settings
 	@BeforeClass
 	public void checkGPS() throws MalformedURLException
 	{
 		LocationSettingsPage settings=new LocationSettingsPage(getDriverForGPSSettings());
-		settings.goToLocation();
-		settings.onSwitch();
-		settings.quitLocationDriver();
+		try
+		{
+			settings.goToLocation();
+			settings.onSwitch();
+		}
+		catch(Exception ex)
+		{
+			Assert.fail("Unable to set GPS (Location) settings");
+		}
+		finally{
+			settings.quitLocationDriver();
+		}
 	}	
 	
 	@Test
-	public void DefaultLocationGPSEnabledTestCase() throws MalformedURLException{
-		setClassName(DefaultLocationGPSEnabledTest.class.getSimpleName());
+	public void currentLocationGPSEnabledTestCase() throws MalformedURLException{
+		setClassName(CurrentLocationGPSEnabledTest.class.getSimpleName());
 		
 		//System.out.println("\nExecuting - " +getClassName());
 		Reporter.log("\nExecuting - " +getClassName(),true);
@@ -33,9 +43,11 @@ public class DefaultLocationGPSEnabledTest extends BaseTest {
 		if(hp.iscancelAndSettingsLabelDisplayed())
 			Assert.fail("Kindly check the GPS settings");
 		
+		// to click 'Not Now' when asked for update
 		if(hp.isPaytmUpdateNotNowButtonDisplayed())
 			hp.clickPaytmUpdateNotNowButton();
 		
+		// scroll and display all the Restaurants in current location
 		if(hp.isRestaurantListViewDisplayed())
 		{
 			LinkedHashSet<String> restaurants = hp.getListOfRestaurants();

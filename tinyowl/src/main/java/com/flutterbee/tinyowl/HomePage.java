@@ -21,6 +21,10 @@ public class HomePage extends Page {
 		PageFactory.initElements(driver, this);
 	}
 	
+	 /********************************************************************
+     * 						Page Element Declaration
+     ********************************************************************/	
+
 	@FindBy(id="android:id/content")
 	WebElement cancelAndSettingsFrame;
 	
@@ -55,6 +59,10 @@ public class HomePage extends Page {
 	List<WebElement> restaurantNamesList;	
 	
 	
+	/********************************************************************
+   	 * 						Page Element Verification
+   	 ********************************************************************/
+	
 	public boolean isPaytmUpdateNotNowButtonDisplayed()
 	{
 		if(isElementPresent(By.id("com.flutterbee.tinyowl:id/no_button"))){
@@ -62,24 +70,6 @@ public class HomePage extends Page {
     	}else{
     		return false;
     	}
-	}
-	
-	public void clickPaytmUpdateNotNowButton()
-	{
-		paytmUpdateNotNowButton.click();
-		waitForPageToLoad(2);
-	}
-	
-	public String getCurrentLocationName()
-	{
-		return currentLocationName.getText();
-	}
-	
-	public ManualLocationEntryPage clickEditLocation()
-	{
-		editLocationButton.click();
-		waitForPageToLoad(2);
-		return new ManualLocationEntryPage(driver);
 	}
 	
 	public boolean isRestaurantListViewDisplayed()
@@ -127,6 +117,24 @@ public class HomePage extends Page {
     	}else{
     		return false;
     	}
+	}
+	
+	public void clickPaytmUpdateNotNowButton()
+	{
+		paytmUpdateNotNowButton.click();
+		waitForPageToLoad(2);
+	}
+	
+	public String getCurrentLocationName()
+	{
+		return currentLocationName.getText();
+	}
+	
+	public ManualLocationEntryPage clickEditLocation()
+	{
+		editLocationButton.click();
+		waitForPageToLoad(2);
+		return new ManualLocationEntryPage(driver);
 	}
 	
 	public LocationSettingsPage clickSettingsLink()

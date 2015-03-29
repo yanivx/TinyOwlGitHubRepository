@@ -12,18 +12,28 @@ import org.testng.annotations.Test;
 
 public class SearchLocationManuallyGPSDisabledTest extends BaseTest {
 	
+	// Disable GPS (Location) settings
 	@BeforeClass
 	public void checkGPS() throws MalformedURLException
 	{
 		LocationSettingsPage settings=new LocationSettingsPage(getDriverForGPSSettings());
-		settings.goToLocation();
-		settings.offSwitch();
-		settings.quitLocationDriver();
+		try
+		{
+			settings.goToLocation();
+			settings.offSwitch();
+		}
+		catch(Exception ex)
+		{
+			Assert.fail("Unable to set GPS (Location) settings");
+		}
+		finally{
+			settings.quitLocationDriver();
+		}
 	}	
 	
 	@Test
-	@Parameters({ "location" }) //String location
-	public void SearchLocationManuallyGPSDisabledTestCase(String location) throws MalformedURLException{
+	@Parameters({ "location" }) 	// input location
+	public void searchLocationManuallyGPSDisabledTestCase(String location) throws MalformedURLException{
 				
 		setClassName(SearchLocationManuallyGPSDisabledTest.class.getSimpleName());	
 		
@@ -35,6 +45,7 @@ public class SearchLocationManuallyGPSDisabledTest extends BaseTest {
 		
 		ManualLocationEntryPage manualPage = null;
 		
+		// if 'Please turn on location settings' screen is displayed
 		if(hp.iscancelAndSettingsLabelDisplayed())
 		{
 			RetryOrManualEntryOptionPage retryOption = hp.clickCancelLink();
@@ -46,26 +57,30 @@ public class SearchLocationManuallyGPSDisabledTest extends BaseTest {
 			{
 				Assert.fail("Retry or Manual Entry Option is not displayed");
 			}
-		}// if a cached version of the app is opened
+		}
+		// if a cached version of the app showing restaurants in the last searched location is displayed
 		else if(hp.isEditLocationButtonDisplayed())
 		{
 			manualPage = hp.clickEditLocation();
 		}	
 		else
 		{
-			Assert.fail("'Please turn on location settings' screen is not displayed");
+			Assert.fail("Neither 'Please turn on location settings' screen nor a 'cached version' of last searched location is displayed");
 		}
 		
+		// Enter a location Manually
 		if(manualPage.isManualLocationEntryPageDisplayed())
 		{
 			manualPage.enterLocationManually(location);
-			hp=manualPage.selectLocationManually(location);
+			hp=manualPage.selectLocationManually(location); 	//	check whether the service is currently active or not in the searched location
 			if(hp==null)
 				Assert.fail("Location not found");
 			
+			// to click 'Not Now' when asked for update
 			if(hp.isPaytmUpdateNotNowButtonDisplayed())
 				hp.clickPaytmUpdateNotNowButton();
 			
+			// scroll and display all the Restaurants in the searched location
 			if(hp.isRestaurantListViewDisplayed())
 			{
 				LinkedHashSet<String> restaurants = hp.getListOfRestaurants();

@@ -1,46 +1,57 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
 <suite name="tinyOwlLocationTests">
-  <!-- 
-    <test name="TC_01">
+
+    <test name="TC_01 - Current Location when GPS is enabled">
 		<classes>
-		  <class name="com.flutterbee.tinyowl.DefaultLocationGPSEnabledTest" >
+		  <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest" >
 			  <methods>
-	                    <include name="DefaultLocationGPSEnabledTestCase"/>
+	                    <include name="currentLocationGPSEnabledTestCase"/>
 	          </methods>
 		  </class>
 		</classes>
     </test>
-  
-    <test name="TC_02">
+  <!-- 
+    <test name="TC_02 - Current Location when GPS is initially disabled">
 		<classes>
 		  <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest" >
 			  <methods>
-	                    <include name="CurrentLocationGPSDisabledTestCase"/>
-	          </methods>
-		  </class>
-		</classes>
-    </test>
-    --> 
-    <test name="TC_03">
-		<parameter name="location" value="Virar" />
-		<classes>
-		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" >
-			  <methods>
-	                    <include name="EnterLocationManuallyGPSEnabledTestCase"/>
-	          </methods>
-		  </class>
-		</classes>
-    </test>
-   
-    <test name="TC_04">
-		<parameter name="location" value="Elphinstone" />
-		<classes>
-		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest" >
-			  <methods>
-	                    <include name="SearchLocationManuallyGPSDisabledTestCase"/>
+	                    <include name="currentLocationGPSDisabledTestCase"/>
 	          </methods>
 		  </class>
 		</classes>
     </test>
     
+    <test name="TC_03 - Search a valid(in scope) Location manually when GPS is enabled">
+		<parameter name="location" value="Dadar" />
+		<classes>
+		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" >
+			  <methods>
+	                    <include name="searchLocationManuallyGPSEnabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+   
+    <test name="TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled">
+		<parameter name="location" value="Virar" />
+		<classes>
+		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" >
+			  <methods>
+	                    <include name="searchLocationManuallyGPSEnabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+    
+    <test name="TC_05 - Search a valid(in scope) Location manually when GPS is initially disabled">
+		<parameter name="location" value="Elphinstone" />
+		<classes>
+		  <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest" >
+			  <methods>
+	                    <include name="searchLocationManuallyGPSDisabledTestCase"/>
+	          </methods>
+		  </class>
+		</classes>
+    </test>
+     -->
 </suite>

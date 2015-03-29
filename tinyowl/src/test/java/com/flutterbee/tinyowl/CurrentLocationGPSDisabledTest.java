@@ -11,44 +11,61 @@ import org.testng.annotations.Test;
 
 public class CurrentLocationGPSDisabledTest extends BaseTest {
 	
+	// Disable GPS (Location) settings
 	@BeforeClass
 	public void checkGPS() throws MalformedURLException
 	{
 		LocationSettingsPage settings=new LocationSettingsPage(getDriverForGPSSettings());
-		settings.goToLocation();
-		settings.offSwitch();
-		settings.quitLocationDriver();
+		try
+		{
+			settings.goToLocation();
+			settings.offSwitch();
+		}
+		catch(Exception ex)
+		{
+			Assert.fail("Unable to set GPS (Location) settings");
+		}
+		finally{
+			settings.quitLocationDriver();
+		}
 	}
 	
 	@Test
-	public void CurrentLocationGPSDisabledTestCase() throws MalformedURLException{
+	public void currentLocationGPSDisabledTestCase() throws MalformedURLException{
+		
 		setClassName(CurrentLocationGPSDisabledTest.class.getSimpleName());
+		
 		//System.out.println("\nExecuting - " +getClassName());
 		Reporter.log("\nExecuting - " +getClassName(),true);
+		
 		HomePage hp=new HomePage(getDriverForApp());
 		hp.waitForPageToLoad(5);
 		
-		// if a cached version of the app is opened
+		// if a cached version of the app showing restaurants in the last searched location is displayed
 		if(hp.isEditLocationButtonDisplayed())
 		{
 			ManualLocationEntryPage manualPage = hp.clickEditLocation();
 			if(manualPage.isManualLocationEntryPageDisplayed())
 			{
-				hp=manualPage.clickUseMyLocationLink();
+				hp=manualPage.clickUseMyLocationLink();		// select My Location link
 			}
 			else
 			{
 				Assert.fail("Page for searching locations manually is not displayed");
 			}
 		}
+		
+		// if 'Please turn on location settings' screen is displayed
 		else if(hp.iscancelAndSettingsLabelDisplayed())
 		{
 			LocationSettingsPage locSettings=hp.clickSettingsLink();
 			if(locSettings.isLocationHeadingDisplayed())
 			{
+				// Enable GPS (Location) settings
 				locSettings.onSwitch();
-				if(locSettings.isimproveLocationAccuracyTitleDisplayed())
+				if(locSettings.isImproveLocationAccuracyTitleDisplayed())
 					locSettings.clickAgreeButton();
+				// Navigate back to home page
 				hp=locSettings.back();
 			}
 			else
@@ -56,6 +73,7 @@ public class CurrentLocationGPSDisabledTest extends BaseTest {
 				Assert.fail("Location Settings page is not displayed");
 			}
 			
+			// if 'Please turn on location settings' screen is displayed again even after enabling the GPS
 			if(hp.iscancelAndSettingsLabelDisplayed())
 			{
 				Assert.fail("Restaurants list is not displayed even after enabling the GPS");
@@ -63,12 +81,14 @@ public class CurrentLocationGPSDisabledTest extends BaseTest {
 		}
 		else
 		{
-			Assert.fail("'Please turn on location settings' screen is not displayed");
+			Assert.fail("Neither 'Please turn on location settings' screen nor a 'cached version' of last searched location is displayed");
 		}
 		
+		// to click 'Not Now' when asked for update
 		if(hp.isPaytmUpdateNotNowButtonDisplayed())
 			hp.clickPaytmUpdateNotNowButton();
 		
+		// scroll and display all the Restaurants in current location
 		if(hp.isRestaurantListViewDisplayed())
 		{
 			LinkedHashSet<String> restaurants = hp.getListOfRestaurants();

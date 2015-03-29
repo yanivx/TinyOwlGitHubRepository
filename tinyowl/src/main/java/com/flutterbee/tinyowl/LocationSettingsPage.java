@@ -16,6 +16,10 @@ public class LocationSettingsPage extends Page {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
+	
+	 /********************************************************************
+     * 						Page Element Declaration
+     ********************************************************************/	
 
 	@FindBy(id="android:id/action_bar")
 	WebElement locHeading;
@@ -37,9 +41,12 @@ public class LocationSettingsPage extends Page {
 	
 	@FindBy(name="Location")
 	WebElement locationLink;
+		
+	/********************************************************************
+   	 * 						Page Element Verification
+   	 ********************************************************************/
 	
-	
-	public boolean isimproveLocationAccuracyTitleDisplayed()
+	public boolean isImproveLocationAccuracyTitleDisplayed()
 	{
 		if(isElementPresent(By.id("android:id/alertTitle")) && improveLocationAccuracyTitle.getText().contains("Improve location")){
     		return improveLocationAccuracyTitle.isDisplayed() && improveLocationAccuracyTitle.isEnabled();
@@ -48,6 +55,7 @@ public class LocationSettingsPage extends Page {
     	}
 	}
 	
+	// go to Location in settings to Enable/Disable GPS (Location)
 	public void goToLocation()
 	{
 		((AndroidDriver) driver).scrollTo("Location");
@@ -55,6 +63,7 @@ public class LocationSettingsPage extends Page {
 		locationLink.click();
 	}
 	
+	// Agree Improve Location Accuracy option
 	public void clickAgreeButton()
 	{
 		agreeButon.click();
@@ -70,29 +79,34 @@ public class LocationSettingsPage extends Page {
     	}
 	}
 	
+	// get GPS status
 	public String getSwitchStatus()
 	{
 		return onOffLabel.getText();
 	}
 	
+	// quit driver used to Enable/Disable GPS (Location)
 	public void quitLocationDriver()
 	{
 		if(driver!=null)
 			driver.quit();
 	}	
 	
+	// Enable GPS (Location) settings
 	public void onSwitch()
 	{
 		if(getSwitchStatus().equals("Off"))
 			onOffWidget.click();
 	}
 	
+	// Disable GPS (Location) settings
 	public void offSwitch()
 	{
 		if(getSwitchStatus().equals("On"))
 			onOffWidget.click();
 	}
 	
+	// Navigate back to home page
 	public HomePage back()
 	{
 		driver.navigate().back();

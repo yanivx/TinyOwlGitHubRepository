@@ -12,18 +12,28 @@ import org.testng.annotations.Test;
 
 public class SearchLocationManuallyGPSEnabledTest extends BaseTest {
 
+	// Enable GPS (Location) settings
 	@BeforeClass
 	public void checkGPS() throws MalformedURLException
 	{
 		LocationSettingsPage settings=new LocationSettingsPage(getDriverForGPSSettings());
-		settings.goToLocation();
-		settings.onSwitch();
-		settings.quitLocationDriver();
+		try
+		{
+			settings.goToLocation();
+			settings.onSwitch();
+		}
+		catch(Exception ex)
+		{
+			Assert.fail("Unable to set GPS (Location) settings");
+		}
+		finally{
+			settings.quitLocationDriver();
+		}
 	}
 	
 	@Test
-	@Parameters({ "location" }) 
-	public void EnterLocationManuallyGPSEnabledTestCase(String location) throws MalformedURLException{
+	@Parameters({ "location" }) 	// input location
+	public void searchLocationManuallyGPSEnabledTestCase(String location) throws MalformedURLException{
 				
 		setClassName(SearchLocationManuallyGPSEnabledTest.class.getSimpleName());
 
@@ -36,19 +46,22 @@ public class SearchLocationManuallyGPSEnabledTest extends BaseTest {
 		if(hp.iscancelAndSettingsLabelDisplayed())
 			Assert.fail("Kindly check the GPS settings");
 		
+		
 		if(hp.isEditLocationButtonDisplayed())
 		{
 			ManualLocationEntryPage manualPage = hp.clickEditLocation();
 			if(manualPage.isManualLocationEntryPageDisplayed())
 			{
-				manualPage.enterLocationManually(location);
-				hp=manualPage.selectLocationManually(location);
+				manualPage.enterLocationManually(location);		// Enter a location Manually
+				hp=manualPage.selectLocationManually(location);	//	check whether the service is currently active or not in the searched location
 				if(hp==null)
 					Assert.fail("Location not found");
 				
+				// to click 'Not Now' when asked for update
 				if(hp.isPaytmUpdateNotNowButtonDisplayed())
 					hp.clickPaytmUpdateNotNowButton();
 				
+				// scroll and display all the Restaurants in the searched location
 				if(hp.isRestaurantListViewDisplayed())
 				{
 					LinkedHashSet<String> restaurants = hp.getListOfRestaurants();

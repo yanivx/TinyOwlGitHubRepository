@@ -15,19 +15,20 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
 
-
 @SuppressWarnings("unused")
 public abstract class BaseTest {
 	
 	protected WebDriver driver;
 	String className="";
 	
+	// get driver for application
 	protected WebDriver getDriverForApp() throws MalformedURLException{
 		driver = Page.getNewDriverForApp();
 		
 		return driver;
 	}
 	
+	// get driver to Enable/Disable GPS (Location)
 	protected WebDriver getDriverForGPSSettings() throws MalformedURLException{
 		driver = Page.getNewDriverForGPSSettings();
 		return driver;
@@ -41,17 +42,20 @@ public abstract class BaseTest {
 			driver.quit();
 		
 	}
-		
+	
+	// set the calling class name
 	public void setClassName(String className)
 	{
 		this.className=className;
 	}
 	
+	// get the calling class name
 	public String getClassName()
 	{
 		return className;
 	}
 	
+	// take screenshot
 	public void takeScreenshot(String className){
 		String fileName="";
 		
