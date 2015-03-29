@@ -52,7 +52,7 @@ public class SearchLocationManuallyGPSEnabledTest extends BaseTest {
 			ManualLocationEntryPage manualPage = hp.clickEditLocation();
 			if(manualPage.isManualLocationEntryPageDisplayed())
 			{
-				manualPage.enterLocationManually(location);		// Enter a location Manually
+				manualPage.enterLocationManually(location);		//	Enter a location Manually
 				hp=manualPage.selectLocationManually(location);	//	check whether the service is currently active or not in the searched location
 				if(hp==null)
 					Assert.fail("Location not found");

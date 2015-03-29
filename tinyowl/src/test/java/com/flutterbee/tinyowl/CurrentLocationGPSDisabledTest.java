@@ -56,7 +56,7 @@ public class CurrentLocationGPSDisabledTest extends BaseTest {
 		}
 		
 		// if 'Please turn on location settings' screen is displayed
-		else if(hp.iscancelAndSettingsLabelDisplayed())
+		if(hp.iscancelAndSettingsLabelDisplayed())
 		{
 			LocationSettingsPage locSettings=hp.clickSettingsLink();
 			if(locSettings.isLocationHeadingDisplayed())
@@ -81,7 +81,7 @@ public class CurrentLocationGPSDisabledTest extends BaseTest {
 		}
 		else
 		{
-			Assert.fail("Neither 'Please turn on location settings' screen nor a 'cached version' of last searched location is displayed");
+			Assert.fail("'Please turn on location settings' screen is not displayed");
 		}
 		
 		// to click 'Not Now' when asked for update
