@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-tinyOwlLocationTests">
-              <span class="suite-name border-skipped">tinyOwlLocationTests</span>
+              <span class="suite-name border-failed">tinyOwlLocationTests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,41 +90,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  5 skipped,  </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="hide-methods skipped suite-tinyOwlLocationTests"> (hide)</a> <!-- hide-methods skipped suite-tinyOwlLocationTests -->
-                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="show-methods skipped suite-tinyOwlLocationTests"> (show)</a> <!-- show-methods skipped suite-tinyOwlLocationTests -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="hide-methods failed suite-tinyOwlLocationTests"> (hide)</a> <!-- hide-methods failed suite-tinyOwlLocationTests -->
+                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="show-methods failed suite-tinyOwlLocationTests"> (show)</a> <!-- show-methods failed suite-tinyOwlLocationTests -->
                     </span>
-                    <div class="method-list-content skipped suite-tinyOwlLocationTests">
+                    <div class="method-list-content failed suite-tinyOwlLocationTests">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" hash-for-method="searchLocationManuallyGPSEnabledTestCase(Virar)">searchLocationManuallyGPSEnabledTestCase(Virar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-tinyOwlLocationTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="hide-methods passed suite-tinyOwlLocationTests"> (hide)</a> <!-- hide-methods passed suite-tinyOwlLocationTests -->
+                      <a href="#" panel-name="suite-tinyOwlLocationTests" class="show-methods passed suite-tinyOwlLocationTests"> (show)</a> <!-- show-methods passed suite-tinyOwlLocationTests -->
+                    </span>
+                    <div class="method-list-content passed suite-tinyOwlLocationTests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest" hash-for-method="currentLocationGPSDisabledTestCase">currentLocationGPSDisabledTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest" hash-for-method="currentLocationGPSEnabledTestCase">currentLocationGPSEnabledTestCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest" hash-for-method="searchLocationManuallyGPSDisabledTestCase(Elphinstone)">searchLocationManuallyGPSDisabledTestCase(Elphinstone)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" hash-for-method="searchLocationManuallyGPSEnabledTestCase(Dadar)">searchLocationManuallyGPSEnabledTestCase(Dadar)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-tinyOwlLocationTests" title="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest" hash-for-method="searchLocationManuallyGPSEnabledTestCase(Virar)">searchLocationManuallyGPSEnabledTestCase(Virar)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-tinyOwlLocationTests -->
+                    </div> <!-- method-list-content passed suite-tinyOwlLocationTests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,9 +145,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-tinyOwlLocationTests" class="panel tinyOwlLocationTests">
-          <div class="suite-tinyOwlLocationTests-class-skipped">
+          <div class="suite-tinyOwlLocationTests-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchLocationManuallyGPSEnabledTestCase(Virar)">
+                  </a> <!-- searchLocationManuallyGPSEnabledTestCase(Virar) -->
+                  <span class="method-name">searchLocationManuallyGPSEnabledTestCase</span>
+                  <span class="parameters">(Virar)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Currently Not Active in Virar East, Virar, Maharashtra, India
+	at com.flutterbee.tinyowl.ManualLocationEntryPage.selectLocationManually(ManualLocationEntryPage.java:141)
+	at com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest.searchLocationManuallyGPSEnabledTestCase(SearchLocationManuallyGPSEnabledTest.java:56)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tinyOwlLocationTests-class-failed -->
+          <div class="suite-tinyOwlLocationTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,10 +180,10 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-tinyOwlLocationTests-class-skipped -->
-          <div class="suite-tinyOwlLocationTests-class-skipped">
+          </div> <!-- suite-tinyOwlLocationTests-class-passed -->
+          <div class="suite-tinyOwlLocationTests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -165,10 +195,10 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-tinyOwlLocationTests-class-skipped -->
-          <div class="suite-tinyOwlLocationTests-class-skipped">
+          </div> <!-- suite-tinyOwlLocationTests-class-passed -->
+          <div class="suite-tinyOwlLocationTests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -181,10 +211,10 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-tinyOwlLocationTests-class-skipped -->
-          <div class="suite-tinyOwlLocationTests-class-skipped">
+          </div> <!-- suite-tinyOwlLocationTests-class-passed -->
+          <div class="suite-tinyOwlLocationTests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -196,16 +226,8 @@
                   <span class="parameters">(Dadar)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchLocationManuallyGPSEnabledTestCase(Virar)">
-                  </a> <!-- searchLocationManuallyGPSEnabledTestCase(Virar) -->
-                  <span class="method-name">searchLocationManuallyGPSEnabledTestCase</span>
-                  <span class="parameters">(Virar)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-tinyOwlLocationTests-class-skipped -->
+          </div> <!-- suite-tinyOwlLocationTests-class-passed -->
         </div> <!-- panel tinyOwlLocationTests -->
         <div panel-name="test-xml-tinyOwlLocationTests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -315,30 +337,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'currentLocationGPSDisabledTestCase')
-data.setCell(0, 2, 'com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'searchLocationManuallyGPSDisabledTestCase')
+data.setCell(0, 2, 'com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest')
+data.setCell(0, 3, 242111);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchLocationManuallyGPSEnabledTestCase')
 data.setCell(1, 2, 'com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 165196);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchLocationManuallyGPSEnabledTestCase')
-data.setCell(2, 2, 'com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 1, 'currentLocationGPSEnabledTestCase')
+data.setCell(2, 2, 'com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest')
+data.setCell(2, 3, 96558);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchLocationManuallyGPSDisabledTestCase')
-data.setCell(3, 2, 'com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'currentLocationGPSDisabledTestCase')
+data.setCell(3, 2, 'com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest')
+data.setCell(3, 3, 89701);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'currentLocationGPSEnabledTestCase')
-data.setCell(4, 2, 'com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'searchLocationManuallyGPSEnabledTestCase')
+data.setCell(4, 2, 'com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest')
+data.setCell(4, 3, 35992);
 window.suiteTableData['tinyOwlLocationTests']= { tableData: data, tableDiv: 'times-div-tinyOwlLocationTests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 ms</span>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
               <div id="times-div-tinyOwlLocationTests">
               </div> <!-- times-div-tinyOwlLocationTests -->
             </div> <!-- times-div -->
@@ -349,6 +371,277 @@ return data;
             <span class="header-content">Reporter output for tinyOwlLocationTests</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">currentLocationGPSEnabledTestCase</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Executing - CurrentLocationGPSEnabledTest</span>
+                <span class="reporter-method-output">Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - </span>
+                <span class="reporter-method-output">Box8</span>
+                <span class="reporter-method-output">Malvani Katta</span>
+                <span class="reporter-method-output">Tibb's Frankie</span>
+                <span class="reporter-method-output">Modern Bar & Restaurant</span>
+                <span class="reporter-method-output">Smokin' Joe's</span>
+                <span class="reporter-method-output">Amazing China</span>
+                <span class="reporter-method-output">Hangla's</span>
+                <span class="reporter-method-output">Shapoor Restaurant</span>
+                <span class="reporter-method-output">Chinese Corner</span>
+                <span class="reporter-method-output">Paninaro</span>
+                <span class="reporter-method-output">Modern Family Restaurant</span>
+                <span class="reporter-method-output">Bom Tasty Treat</span>
+                <span class="reporter-method-output">Meal Box Cafe</span>
+                <span class="reporter-method-output">Sarang Bandhu</span>
+                <span class="reporter-method-output">Shang Dynasty</span>
+                <span class="reporter-method-output">Big Daddy</span>
+                <span class="reporter-method-output">Local Bites</span>
+                <span class="reporter-method-output">Belstone Pure Veg</span>
+                <span class="reporter-method-output">Srinathji's</span>
+                <span class="reporter-method-output">Baskin Robbins</span>
+                <span class="reporter-method-output">Cafe Free India</span>
+                <span class="reporter-method-output">Great Punjab</span>
+                <span class="reporter-method-output">7 Spice Chinese Restaurant</span>
+                <span class="reporter-method-output">Punjabi Tadka By Crystal</span>
+                <span class="reporter-method-output">Chovisam Pizza</span>
+                <span class="reporter-method-output">Sheetal Restaurant</span>
+                <span class="reporter-method-output">Ambience</span>
+                <span class="reporter-method-output">Fly By Knight</span>
+                <span class="reporter-method-output">Zaffran</span>
+                <span class="reporter-method-output">Francesco's Pizzeria</span>
+                <span class="reporter-method-output">Status</span>
+                <span class="reporter-method-output">Hardeep Punjab</span>
+                <span class="reporter-method-output">Simply Delecious</span>
+                <span class="reporter-method-output">Creme House</span>
+                <span class="reporter-method-output">Delhi Zaika</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">currentLocationGPSDisabledTestCase</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Executing - CurrentLocationGPSDisabledTest</span>
+                <span class="reporter-method-output">Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - </span>
+                <span class="reporter-method-output">Box8</span>
+                <span class="reporter-method-output">Malvani Katta</span>
+                <span class="reporter-method-output">Tibb's Frankie</span>
+                <span class="reporter-method-output">Modern Bar & Restaurant</span>
+                <span class="reporter-method-output">Smokin' Joe's</span>
+                <span class="reporter-method-output">Amazing China</span>
+                <span class="reporter-method-output">Hangla's</span>
+                <span class="reporter-method-output">Shapoor Restaurant</span>
+                <span class="reporter-method-output">Chinese Corner</span>
+                <span class="reporter-method-output">Paninaro</span>
+                <span class="reporter-method-output">Modern Family Restaurant</span>
+                <span class="reporter-method-output">Bom Tasty Treat</span>
+                <span class="reporter-method-output">Meal Box Cafe</span>
+                <span class="reporter-method-output">Sarang Bandhu</span>
+                <span class="reporter-method-output">Shang Dynasty</span>
+                <span class="reporter-method-output">Big Daddy</span>
+                <span class="reporter-method-output">Local Bites</span>
+                <span class="reporter-method-output">Belstone Pure Veg</span>
+                <span class="reporter-method-output">Srinathji's</span>
+                <span class="reporter-method-output">Baskin Robbins</span>
+                <span class="reporter-method-output">Cafe Free India</span>
+                <span class="reporter-method-output">Great Punjab</span>
+                <span class="reporter-method-output">7 Spice Chinese Restaurant</span>
+                <span class="reporter-method-output">Punjabi Tadka By Crystal</span>
+                <span class="reporter-method-output">Chovisam Pizza</span>
+                <span class="reporter-method-output">Sheetal Restaurant</span>
+                <span class="reporter-method-output">Ambience</span>
+                <span class="reporter-method-output">Fly By Knight</span>
+                <span class="reporter-method-output">Zaffran</span>
+                <span class="reporter-method-output">Francesco's Pizzeria</span>
+                <span class="reporter-method-output">Status</span>
+                <span class="reporter-method-output">Hardeep Punjab</span>
+                <span class="reporter-method-output">Simply Delecious</span>
+                <span class="reporter-method-output">Creme House</span>
+                <span class="reporter-method-output">Delhi Zaika</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchLocationManuallyGPSEnabledTestCase(Dadar)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Executing - SearchLocationManuallyGPSEnabledTest</span>
+                <span class="reporter-method-output">Following are the Restaurants in Dadar, Mumbai, Maharashtra, India - </span>
+                <span class="reporter-method-output">Fric N Floc</span>
+                <span class="reporter-method-output">Saibini Gomantak</span>
+                <span class="reporter-method-output">Chilli House</span>
+                <span class="reporter-method-output">Home Kitchen Company</span>
+                <span class="reporter-method-output">Shree Swami Samarth Fast Food</span>
+                <span class="reporter-method-output">Box8</span>
+                <span class="reporter-method-output">Light Of Bharat</span>
+                <span class="reporter-method-output">Saffron</span>
+                <span class="reporter-method-output">Tasty Sandwich And Pizza Corner</span>
+                <span class="reporter-method-output">Smokin' Joe's</span>
+                <span class="reporter-method-output">Munch</span>
+                <span class="reporter-method-output">Awadhpuri Hotel</span>
+                <span class="reporter-method-output">Sarang Bandhu</span>
+                <span class="reporter-method-output">Hotel Chandra Prakash</span>
+                <span class="reporter-method-output">The Baker's Dozen</span>
+                <span class="reporter-method-output">Hilton's</span>
+                <span class="reporter-method-output">Monginis</span>
+                <span class="reporter-method-output">Zelos N Zest</span>
+                <span class="reporter-method-output">Gold Rushs</span>
+                <span class="reporter-method-output">Potoba</span>
+                <span class="reporter-method-output">Hotel Sujay</span>
+                <span class="reporter-method-output">Paninaro</span>
+                <span class="reporter-method-output">Favourites</span>
+                <span class="reporter-method-output">Flavours</span>
+                <span class="reporter-method-output">Shree Krishna Veg Diet</span>
+                <span class="reporter-method-output">Japps</span>
+                <span class="reporter-method-output">Subway</span>
+                <span class="reporter-method-output">Ambretto</span>
+                <span class="reporter-method-output">Chaitanya</span>
+                <span class="reporter-method-output">Aroma</span>
+                <span class="reporter-method-output">Khans</span>
+                <span class="reporter-method-output">Icy Spicy Restaurant</span>
+                <span class="reporter-method-output">Big Daddy</span>
+                <span class="reporter-method-output">Anand Bhuwan The Dining Bar</span>
+                <span class="reporter-method-output">Chovisam Pizza</span>
+                <span class="reporter-method-output">Wok & Roll</span>
+                <span class="reporter-method-output">Srinathjis</span>
+                <span class="reporter-method-output">Sin City Cakes And Bakes</span>
+                <span class="reporter-method-output">Hotel Sheetal</span>
+                <span class="reporter-method-output">Aroma Lets Celebrate</span>
+                <span class="reporter-method-output">Home Deli</span>
+                <span class="reporter-method-output">Downtown Dhaba</span>
+                <span class="reporter-method-output">Hotel Omkar</span>
+                <span class="reporter-method-output">Foodish-The Happy Food</span>
+                <span class="reporter-method-output">Diva Maharashtracha</span>
+                <span class="reporter-method-output">Goa Portuguesa</span>
+                <span class="reporter-method-output">Dakshin Culture Curry</span>
+                <span class="reporter-method-output">Little China</span>
+                <span class="reporter-method-output">New Garam Masala</span>
+                <span class="reporter-method-output">Fly By Knight</span>
+                <span class="reporter-method-output">Ching - Ki - Shack</span>
+                <span class="reporter-method-output">Baskin Robbins</span>
+                <span class="reporter-method-output">China Bistro</span>
+                <span class="reporter-method-output">Sushegad Gomantak</span>
+                <span class="reporter-method-output">Stepiin Bar & Kitchen</span>
+                <span class="reporter-method-output">Baba Falooda</span>
+                <span class="reporter-method-output">Sneha Restaurant</span>
+                <span class="reporter-method-output">Hotel Malwan Kinara</span>
+                <span class="reporter-method-output">Howra</span>
+                <span class="reporter-method-output">Saffron 12</span>
+                <span class="reporter-method-output">Shiv Palace Restaurant And Bar</span>
+                <span class="reporter-method-output">I Love Food</span>
+                <span class="reporter-method-output">Lazeez Xpress</span>
+                <span class="reporter-method-output">Rasna Punjab</span>
+                <span class="reporter-method-output">Flavours Of China</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchLocationManuallyGPSEnabledTestCase(Virar)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Executing - SearchLocationManuallyGPSEnabledTest</span>
+                <span class="reporter-method-output">Currently Not Active in Virar East, Virar, Maharashtra, India</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchLocationManuallyGPSDisabledTestCase(Elphinstone)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Executing - SearchLocationManuallyGPSDisabledTest</span>
+                <span class="reporter-method-output">Following are the Restaurants in Elphinstone College, Mumbai, Maharashtra, India - </span>
+                <span class="reporter-method-output">Oye Kake</span>
+                <span class="reporter-method-output">The Pantry Cafe'</span>
+                <span class="reporter-method-output">Mocambo Cafe</span>
+                <span class="reporter-method-output">Cafe Churchill</span>
+                <span class="reporter-method-output">Pratap Lunch Home</span>
+                <span class="reporter-method-output">Harish Refreshment</span>
+                <span class="reporter-method-output">H. Paramesha Fast Food Corner</span>
+                <span class="reporter-method-output">The Mumbai Masala</span>
+                <span class="reporter-method-output">7 Fresh</span>
+                <span class="reporter-method-output">Brijwasi Toast & Grill Corner</span>
+                <span class="reporter-method-output">Mao Family Restaurant</span>
+                <span class="reporter-method-output">Lalit Refreshments</span>
+                <span class="reporter-method-output">National Restaurant</span>
+                <span class="reporter-method-output">Lalit Refreshment-Taste Of Kerala</span>
+                <span class="reporter-method-output">6Th Street Yogurt</span>
+                <span class="reporter-method-output">Bombay Restaurant</span>
+                <span class="reporter-method-output">New Edward Bakery</span>
+                <span class="reporter-method-output">Edward Bakery</span>
+                <span class="reporter-method-output">Liberty Lunch Home</span>
+                <span class="reporter-method-output">Cafe Paris</span>
+                <span class="reporter-method-output">Shaan Chinese Corner</span>
+                <span class="reporter-method-output">Great Western Fast Food Corner</span>
+                <span class="reporter-method-output">210 Degrees</span>
+                <span class="reporter-method-output">Kya Miyaa!</span>
+                <span class="reporter-method-output">Pronto</span>
+                <span class="reporter-method-output">Sky Cafe</span>
+                <span class="reporter-method-output">Cafe Markiv's</span>
+                <span class="reporter-method-output">Big Daddy</span>
+                <span class="reporter-method-output">Mr. Chow's</span>
+                <span class="reporter-method-output">Delhi Darbar</span>
+                <span class="reporter-method-output">Jay Snacks</span>
+                <span class="reporter-method-output">Apna Fast Food Centre</span>
+                <span class="reporter-method-output">Leo's Boulangerie</span>
+                <span class="reporter-method-output">Kaisar E Hind</span>
+                <span class="reporter-method-output">Shri Ganesh Krupa Lunch Home</span>
+                <span class="reporter-method-output">Hindustan Restaurant</span>
+                <span class="reporter-method-output">Mezban</span>
+                <span class="reporter-method-output">Happiness Deli</span>
+                <span class="reporter-method-output">New Udipi Restaurant</span>
+                <span class="reporter-method-output">Baskin Robbins</span>
+                <span class="reporter-method-output">Paninaro</span>
+                <span class="reporter-method-output">Chikita</span>
+                <span class="reporter-method-output">Nanumal Bhojraj</span>
+                <span class="reporter-method-output">Aye Dios Mio</span>
+                <span class="reporter-method-output">Chhaya Restaurant</span>
+                <span class="reporter-method-output">Colaba Restaurant</span>
+                <span class="reporter-method-output">No 1 Roll</span>
+                <span class="reporter-method-output">Farhang Restaurant</span>
+                <span class="reporter-method-output">Shubh Sagar</span>
+                <span class="reporter-method-output">Sahibaan</span>
+                <span class="reporter-method-output">Leopold Cafe</span>
+                <span class="reporter-method-output">Delhi Mishtan Bhojnalaya</span>
+                <span class="reporter-method-output">Anubhav Bar And Restaurant</span>
+                <span class="reporter-method-output">Jimmy Boy</span>
+                <span class="reporter-method-output">Maharashtra Hotel</span>
+                <span class="reporter-method-output">Ayub's</span>
+                <span class="reporter-method-output">New Neelam Lunch Home</span>
+                <span class="reporter-method-output">Laxmi Vilas</span>
+                <span class="reporter-method-output">Subway</span>
+                <span class="reporter-method-output">Jaffer Bhai's Delhi Darbar</span>
+                <span class="reporter-method-output">Annaleela Modern Cafe</span>
+                <span class="reporter-method-output">Patel Restaurant</span>
+                <span class="reporter-method-output">Cafe Sundance</span>
+                <span class="reporter-method-output">Cafe Metro</span>
+                <span class="reporter-method-output">Cafe Firdos</span>
+                <span class="reporter-method-output">Fly By Knight</span>
+                <span class="reporter-method-output">Dwarka</span>
+                <span class="reporter-method-output">Femistic Chinese</span>
+                <span class="reporter-method-output">Cafe Excelsior</span>
+                <span class="reporter-method-output">Balgi Hotel</span>
+                <span class="reporter-method-output">Vithal's Family Restaurant And Bar</span>
+                <span class="reporter-method-output">Hind Chinese</span>
+                <span class="reporter-method-output">Pancharatna Restaurant</span>
+                <span class="reporter-method-output">Food Plaza</span>
+                <span class="reporter-method-output">Carter's Blue</span>
+                <span class="reporter-method-output">Sizzling China</span>
+                <span class="reporter-method-output">Mahesh Lunch Home</span>
+                <span class="reporter-method-output">Punjabi Moti Halwai</span>
+                <span class="reporter-method-output">Jai Jalaram Sweets & Fast Food</span>
+                <span class="reporter-method-output">Spices & Flavours</span>
+                <span class="reporter-method-output">For Heavens Cakes</span>
+                <span class="reporter-method-output">Imbiss</span>
+                <span class="reporter-method-output">Choco Mania</span>
+                <span class="reporter-method-output">Gary's</span>
+                <span class="reporter-method-output">Usmaniya Hotel</span>
+                <span class="reporter-method-output">Patil Juice Center</span>
+                <span class="reporter-method-output">Dark Temptations</span>
+                <span class="reporter-method-output">Kurry Club</span>
+                <span class="reporter-method-output">Smokin' Joe's</span>
+                <span class="reporter-method-output">Pejas Pure Veg Restaurant</span>
+                <span class="reporter-method-output">Sudha Fast Food</span>
+                <span class="reporter-method-output">Babulnath Dosa Center</span>
+                <span class="reporter-method-output">Aakash Sagar</span>
+                <span class="reporter-method-output">Apsara Ice Creams</span>
+                <span class="reporter-method-output">Delhi Zaika</span>
+                <span class="reporter-method-output">Hotel Suprabhat & Satkar Fast Food</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-tinyOwlLocationTests" class="panel">
@@ -366,64 +659,76 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkGPS</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">currentLocationGPSEnabledTestCase</span>
-                <span class="method-start">1643 ms</span>
+                <span class="method-start">31851 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">128412 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkGPS</span>
-                <span class="method-start">1707 ms</span>
+                <span class="method-start">130207 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">currentLocationGPSDisabledTestCase</span>
-                <span class="method-start">2718 ms</span>
+                <span class="method-start">161287 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">250989 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkGPS</span>
-                <span class="method-start">2778 ms</span>
+                <span class="method-start">252765 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchLocationManuallyGPSEnabledTestCase(Dadar)</span>
-                <span class="method-start">3806 ms</span>
+                <span class="method-start">288748 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">453945 ms</span>
+              </div> <!-- configuration-class after -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkGPS</span>
-                <span class="method-start">3871 ms</span>
+                <span class="method-start">455740 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchLocationManuallyGPSEnabledTestCase(Virar)</span>
-                <span class="method-start">4891 ms</span>
+                <span class="method-start">486395 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">522388 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkGPS</span>
-                <span class="method-start">4953 ms</span>
+                <span class="method-start">524111 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchLocationManuallyGPSDisabledTestCase(Elphinstone)</span>
-                <span class="method-start">5967 ms</span>
+                <span class="method-start">555153 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">797265 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

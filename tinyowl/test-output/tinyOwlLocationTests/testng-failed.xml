@@ -2,137 +2,36 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [tinyOwlLocationTests]">
   <parameter name="location" value="Elphinstone"/>
-  <test name="TC_01 - Current Location when GPS is enabled(failed)">
-    <classes>
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-          <include name="currentLocationGPSEnabledTestCase"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
-    </classes>
-  </test> <!-- TC_01 - Current Location when GPS is enabled(failed) -->
-  <test name="TC_02 - Current Location when GPS is initially disabled(failed)">
-    <classes>
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
-        <methods>
-          <include name="currentLocationGPSDisabledTestCase"/>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
-    </classes>
-  </test> <!-- TC_02 - Current Location when GPS is initially disabled(failed) -->
-  <test name="TC_03 - Search a valid(in scope) Location manually when GPS is enabled(failed)">
-    <parameter name="location" value="Dadar"/>
-    <classes>
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-          <include name="checkGPS"/>
-          <include name="searchLocationManuallyGPSEnabledTestCase"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
-    </classes>
-  </test> <!-- TC_03 - Search a valid(in scope) Location manually when GPS is enabled(failed) -->
   <test name="TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled(failed)">
     <parameter name="location" value="Virar"/>
     <classes>
       <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
         <methods>
           <include name="checkGPS"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
       <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
         <methods>
+          <include name="teardown"/>
           <include name="checkGPS"/>
         </methods>
       </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkGPS"/>
+        </methods>
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
       <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
         <methods>
           <include name="checkGPS"/>
           <include name="checkGPS"/>
-          <include name="searchLocationManuallyGPSEnabledTestCase"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="searchLocationManuallyGPSEnabledTestCase" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
     </classes>
   </test> <!-- TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled(failed) -->
-  <test name="TC_05 - Search a valid(in scope) Location manually when GPS is initially disabled(failed)">
-    <parameter name="location" value="Elphinstone"/>
-    <classes>
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <methods>
-          <include name="searchLocationManuallyGPSDisabledTestCase"/>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
-        <methods>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <methods>
-          <include name="checkGPS"/>
-          <include name="checkGPS"/>
-        </methods>
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
-    </classes>
-  </test> <!-- TC_05 - Search a valid(in scope) Location manually when GPS is initially disabled(failed) -->
 </suite> <!-- Failed suite [tinyOwlLocationTests] -->

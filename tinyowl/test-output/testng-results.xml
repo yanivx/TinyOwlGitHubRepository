@@ -1,280 +1,1001 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="0" total="5" passed="0">
+<testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[
+Executing - CurrentLocationGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - ]]>
+    </line>
+    <line>
+      <![CDATA[Box8]]>
+    </line>
+    <line>
+      <![CDATA[Malvani Katta]]>
+    </line>
+    <line>
+      <![CDATA[Tibb's Frankie]]>
+    </line>
+    <line>
+      <![CDATA[Modern Bar & Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Amazing China]]>
+    </line>
+    <line>
+      <![CDATA[Hangla's]]>
+    </line>
+    <line>
+      <![CDATA[Shapoor Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Chinese Corner]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Modern Family Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Bom Tasty Treat]]>
+    </line>
+    <line>
+      <![CDATA[Meal Box Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Sarang Bandhu]]>
+    </line>
+    <line>
+      <![CDATA[Shang Dynasty]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Local Bites]]>
+    </line>
+    <line>
+      <![CDATA[Belstone Pure Veg]]>
+    </line>
+    <line>
+      <![CDATA[Srinathji's]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Free India]]>
+    </line>
+    <line>
+      <![CDATA[Great Punjab]]>
+    </line>
+    <line>
+      <![CDATA[7 Spice Chinese Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Punjabi Tadka By Crystal]]>
+    </line>
+    <line>
+      <![CDATA[Chovisam Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Sheetal Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Ambience]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Zaffran]]>
+    </line>
+    <line>
+      <![CDATA[Francesco's Pizzeria]]>
+    </line>
+    <line>
+      <![CDATA[Status]]>
+    </line>
+    <line>
+      <![CDATA[Hardeep Punjab]]>
+    </line>
+    <line>
+      <![CDATA[Simply Delecious]]>
+    </line>
+    <line>
+      <![CDATA[Creme House]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Zaika]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - CurrentLocationGPSDisabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - ]]>
+    </line>
+    <line>
+      <![CDATA[Box8]]>
+    </line>
+    <line>
+      <![CDATA[Malvani Katta]]>
+    </line>
+    <line>
+      <![CDATA[Tibb's Frankie]]>
+    </line>
+    <line>
+      <![CDATA[Modern Bar & Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Amazing China]]>
+    </line>
+    <line>
+      <![CDATA[Hangla's]]>
+    </line>
+    <line>
+      <![CDATA[Shapoor Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Chinese Corner]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Modern Family Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Bom Tasty Treat]]>
+    </line>
+    <line>
+      <![CDATA[Meal Box Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Sarang Bandhu]]>
+    </line>
+    <line>
+      <![CDATA[Shang Dynasty]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Local Bites]]>
+    </line>
+    <line>
+      <![CDATA[Belstone Pure Veg]]>
+    </line>
+    <line>
+      <![CDATA[Srinathji's]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Free India]]>
+    </line>
+    <line>
+      <![CDATA[Great Punjab]]>
+    </line>
+    <line>
+      <![CDATA[7 Spice Chinese Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Punjabi Tadka By Crystal]]>
+    </line>
+    <line>
+      <![CDATA[Chovisam Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Sheetal Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Ambience]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Zaffran]]>
+    </line>
+    <line>
+      <![CDATA[Francesco's Pizzeria]]>
+    </line>
+    <line>
+      <![CDATA[Status]]>
+    </line>
+    <line>
+      <![CDATA[Hardeep Punjab]]>
+    </line>
+    <line>
+      <![CDATA[Simply Delecious]]>
+    </line>
+    <line>
+      <![CDATA[Creme House]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Zaika]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Dadar, Mumbai, Maharashtra, India - ]]>
+    </line>
+    <line>
+      <![CDATA[Fric N Floc]]>
+    </line>
+    <line>
+      <![CDATA[Saibini Gomantak]]>
+    </line>
+    <line>
+      <![CDATA[Chilli House]]>
+    </line>
+    <line>
+      <![CDATA[Home Kitchen Company]]>
+    </line>
+    <line>
+      <![CDATA[Shree Swami Samarth Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Box8]]>
+    </line>
+    <line>
+      <![CDATA[Light Of Bharat]]>
+    </line>
+    <line>
+      <![CDATA[Saffron]]>
+    </line>
+    <line>
+      <![CDATA[Tasty Sandwich And Pizza Corner]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Munch]]>
+    </line>
+    <line>
+      <![CDATA[Awadhpuri Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Sarang Bandhu]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Chandra Prakash]]>
+    </line>
+    <line>
+      <![CDATA[The Baker's Dozen]]>
+    </line>
+    <line>
+      <![CDATA[Hilton's]]>
+    </line>
+    <line>
+      <![CDATA[Monginis]]>
+    </line>
+    <line>
+      <![CDATA[Zelos N Zest]]>
+    </line>
+    <line>
+      <![CDATA[Gold Rushs]]>
+    </line>
+    <line>
+      <![CDATA[Potoba]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Sujay]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Favourites]]>
+    </line>
+    <line>
+      <![CDATA[Flavours]]>
+    </line>
+    <line>
+      <![CDATA[Shree Krishna Veg Diet]]>
+    </line>
+    <line>
+      <![CDATA[Japps]]>
+    </line>
+    <line>
+      <![CDATA[Subway]]>
+    </line>
+    <line>
+      <![CDATA[Ambretto]]>
+    </line>
+    <line>
+      <![CDATA[Chaitanya]]>
+    </line>
+    <line>
+      <![CDATA[Aroma]]>
+    </line>
+    <line>
+      <![CDATA[Khans]]>
+    </line>
+    <line>
+      <![CDATA[Icy Spicy Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Anand Bhuwan The Dining Bar]]>
+    </line>
+    <line>
+      <![CDATA[Chovisam Pizza]]>
+    </line>
+    <line>
+      <![CDATA[Wok & Roll]]>
+    </line>
+    <line>
+      <![CDATA[Srinathjis]]>
+    </line>
+    <line>
+      <![CDATA[Sin City Cakes And Bakes]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Sheetal]]>
+    </line>
+    <line>
+      <![CDATA[Aroma Lets Celebrate]]>
+    </line>
+    <line>
+      <![CDATA[Home Deli]]>
+    </line>
+    <line>
+      <![CDATA[Downtown Dhaba]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Omkar]]>
+    </line>
+    <line>
+      <![CDATA[Foodish-The Happy Food]]>
+    </line>
+    <line>
+      <![CDATA[Diva Maharashtracha]]>
+    </line>
+    <line>
+      <![CDATA[Goa Portuguesa]]>
+    </line>
+    <line>
+      <![CDATA[Dakshin Culture Curry]]>
+    </line>
+    <line>
+      <![CDATA[Little China]]>
+    </line>
+    <line>
+      <![CDATA[New Garam Masala]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Ching - Ki - Shack]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[China Bistro]]>
+    </line>
+    <line>
+      <![CDATA[Sushegad Gomantak]]>
+    </line>
+    <line>
+      <![CDATA[Stepiin Bar & Kitchen]]>
+    </line>
+    <line>
+      <![CDATA[Baba Falooda]]>
+    </line>
+    <line>
+      <![CDATA[Sneha Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Malwan Kinara]]>
+    </line>
+    <line>
+      <![CDATA[Howra]]>
+    </line>
+    <line>
+      <![CDATA[Saffron 12]]>
+    </line>
+    <line>
+      <![CDATA[Shiv Palace Restaurant And Bar]]>
+    </line>
+    <line>
+      <![CDATA[I Love Food]]>
+    </line>
+    <line>
+      <![CDATA[Lazeez Xpress]]>
+    </line>
+    <line>
+      <![CDATA[Rasna Punjab]]>
+    </line>
+    <line>
+      <![CDATA[Flavours Of China]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Currently Not Active in Virar East, Virar, Maharashtra, India]]>
+    </line>
+    <line>
+      <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+    </line>
+    <line>
+      <![CDATA[Following are the Restaurants in Elphinstone College, Mumbai, Maharashtra, India - ]]>
+    </line>
+    <line>
+      <![CDATA[Oye Kake]]>
+    </line>
+    <line>
+      <![CDATA[The Pantry Cafe']]>
+    </line>
+    <line>
+      <![CDATA[Mocambo Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Churchill]]>
+    </line>
+    <line>
+      <![CDATA[Pratap Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Harish Refreshment]]>
+    </line>
+    <line>
+      <![CDATA[H. Paramesha Fast Food Corner]]>
+    </line>
+    <line>
+      <![CDATA[The Mumbai Masala]]>
+    </line>
+    <line>
+      <![CDATA[7 Fresh]]>
+    </line>
+    <line>
+      <![CDATA[Brijwasi Toast & Grill Corner]]>
+    </line>
+    <line>
+      <![CDATA[Mao Family Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Lalit Refreshments]]>
+    </line>
+    <line>
+      <![CDATA[National Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Lalit Refreshment-Taste Of Kerala]]>
+    </line>
+    <line>
+      <![CDATA[6Th Street Yogurt]]>
+    </line>
+    <line>
+      <![CDATA[Bombay Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[New Edward Bakery]]>
+    </line>
+    <line>
+      <![CDATA[Edward Bakery]]>
+    </line>
+    <line>
+      <![CDATA[Liberty Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Paris]]>
+    </line>
+    <line>
+      <![CDATA[Shaan Chinese Corner]]>
+    </line>
+    <line>
+      <![CDATA[Great Western Fast Food Corner]]>
+    </line>
+    <line>
+      <![CDATA[210 Degrees]]>
+    </line>
+    <line>
+      <![CDATA[Kya Miyaa!]]>
+    </line>
+    <line>
+      <![CDATA[Pronto]]>
+    </line>
+    <line>
+      <![CDATA[Sky Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Markiv's]]>
+    </line>
+    <line>
+      <![CDATA[Big Daddy]]>
+    </line>
+    <line>
+      <![CDATA[Mr. Chow's]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Darbar]]>
+    </line>
+    <line>
+      <![CDATA[Jay Snacks]]>
+    </line>
+    <line>
+      <![CDATA[Apna Fast Food Centre]]>
+    </line>
+    <line>
+      <![CDATA[Leo's Boulangerie]]>
+    </line>
+    <line>
+      <![CDATA[Kaisar E Hind]]>
+    </line>
+    <line>
+      <![CDATA[Shri Ganesh Krupa Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Hindustan Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Mezban]]>
+    </line>
+    <line>
+      <![CDATA[Happiness Deli]]>
+    </line>
+    <line>
+      <![CDATA[New Udipi Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Baskin Robbins]]>
+    </line>
+    <line>
+      <![CDATA[Paninaro]]>
+    </line>
+    <line>
+      <![CDATA[Chikita]]>
+    </line>
+    <line>
+      <![CDATA[Nanumal Bhojraj]]>
+    </line>
+    <line>
+      <![CDATA[Aye Dios Mio]]>
+    </line>
+    <line>
+      <![CDATA[Chhaya Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Colaba Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[No 1 Roll]]>
+    </line>
+    <line>
+      <![CDATA[Farhang Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Shubh Sagar]]>
+    </line>
+    <line>
+      <![CDATA[Sahibaan]]>
+    </line>
+    <line>
+      <![CDATA[Leopold Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Mishtan Bhojnalaya]]>
+    </line>
+    <line>
+      <![CDATA[Anubhav Bar And Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Jimmy Boy]]>
+    </line>
+    <line>
+      <![CDATA[Maharashtra Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Ayub's]]>
+    </line>
+    <line>
+      <![CDATA[New Neelam Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Laxmi Vilas]]>
+    </line>
+    <line>
+      <![CDATA[Subway]]>
+    </line>
+    <line>
+      <![CDATA[Jaffer Bhai's Delhi Darbar]]>
+    </line>
+    <line>
+      <![CDATA[Annaleela Modern Cafe]]>
+    </line>
+    <line>
+      <![CDATA[Patel Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Sundance]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Metro]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Firdos]]>
+    </line>
+    <line>
+      <![CDATA[Fly By Knight]]>
+    </line>
+    <line>
+      <![CDATA[Dwarka]]>
+    </line>
+    <line>
+      <![CDATA[Femistic Chinese]]>
+    </line>
+    <line>
+      <![CDATA[Cafe Excelsior]]>
+    </line>
+    <line>
+      <![CDATA[Balgi Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Vithal's Family Restaurant And Bar]]>
+    </line>
+    <line>
+      <![CDATA[Hind Chinese]]>
+    </line>
+    <line>
+      <![CDATA[Pancharatna Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Food Plaza]]>
+    </line>
+    <line>
+      <![CDATA[Carter's Blue]]>
+    </line>
+    <line>
+      <![CDATA[Sizzling China]]>
+    </line>
+    <line>
+      <![CDATA[Mahesh Lunch Home]]>
+    </line>
+    <line>
+      <![CDATA[Punjabi Moti Halwai]]>
+    </line>
+    <line>
+      <![CDATA[Jai Jalaram Sweets & Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Spices & Flavours]]>
+    </line>
+    <line>
+      <![CDATA[For Heavens Cakes]]>
+    </line>
+    <line>
+      <![CDATA[Imbiss]]>
+    </line>
+    <line>
+      <![CDATA[Choco Mania]]>
+    </line>
+    <line>
+      <![CDATA[Gary's]]>
+    </line>
+    <line>
+      <![CDATA[Usmaniya Hotel]]>
+    </line>
+    <line>
+      <![CDATA[Patil Juice Center]]>
+    </line>
+    <line>
+      <![CDATA[Dark Temptations]]>
+    </line>
+    <line>
+      <![CDATA[Kurry Club]]>
+    </line>
+    <line>
+      <![CDATA[Smokin' Joe's]]>
+    </line>
+    <line>
+      <![CDATA[Pejas Pure Veg Restaurant]]>
+    </line>
+    <line>
+      <![CDATA[Sudha Fast Food]]>
+    </line>
+    <line>
+      <![CDATA[Babulnath Dosa Center]]>
+    </line>
+    <line>
+      <![CDATA[Aakash Sagar]]>
+    </line>
+    <line>
+      <![CDATA[Apsara Ice Creams]]>
+    </line>
+    <line>
+      <![CDATA[Delhi Zaika]]>
+    </line>
+    <line>
+      <![CDATA[Hotel Suprabhat & Satkar Fast Food]]>
+    </line>
   </reporter-output>
-  <suite name="tinyOwlLocationTests" duration-ms="5977" started-at="2015-03-29T20:54:10Z" finished-at="2015-03-29T20:54:16Z">
+  <suite name="tinyOwlLocationTests" duration-ms="799117" started-at="2015-03-29T21:30:36Z" finished-at="2015-03-29T21:43:56Z">
     <groups>
     </groups>
-    <test name="TC_01 - Current Location when GPS is enabled" duration-ms="1654" started-at="2015-03-29T20:54:10Z" finished-at="2015-03-29T20:54:12Z">
+    <test name="TC_01 - Current Location when GPS is enabled" duration-ms="130167" started-at="2015-03-29T21:30:36Z" finished-at="2015-03-29T21:32:47Z">
       <class name="com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest">
-        <test-method status="FAIL" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="checkGPS" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:10Z" finished-at="2015-03-30T02:24:10Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.flutterbee.tinyowl.Page.getNewDriverForGPSSettings(Page.java:63)
-	at com.flutterbee.tinyowl.BaseTest.getDriverForGPSSettings(BaseTest.java:33)
-	at com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest.checkGPS(CurrentLocationGPSEnabledTest.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 33 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="checkGPS" is-config="true" duration-ms="31848" started-at="2015-03-30T03:00:36Z" finished-at="2015-03-30T03:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGPS -->
-        <test-method status="SKIP" signature="currentLocationGPSEnabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="currentLocationGPSEnabledTestCase" duration-ms="0" started-at="2015-03-30T02:24:12Z" finished-at="2015-03-30T02:24:12Z">
+        <test-method status="PASS" signature="currentLocationGPSEnabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="currentLocationGPSEnabledTestCase" duration-ms="96558" started-at="2015-03-30T03:01:08Z" finished-at="2015-03-30T03:02:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+Executing - CurrentLocationGPSEnabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - ]]>
+            </line>
+            <line>
+              <![CDATA[Box8]]>
+            </line>
+            <line>
+              <![CDATA[Malvani Katta]]>
+            </line>
+            <line>
+              <![CDATA[Tibb's Frankie]]>
+            </line>
+            <line>
+              <![CDATA[Modern Bar & Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Amazing China]]>
+            </line>
+            <line>
+              <![CDATA[Hangla's]]>
+            </line>
+            <line>
+              <![CDATA[Shapoor Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Chinese Corner]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Modern Family Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Bom Tasty Treat]]>
+            </line>
+            <line>
+              <![CDATA[Meal Box Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Sarang Bandhu]]>
+            </line>
+            <line>
+              <![CDATA[Shang Dynasty]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Local Bites]]>
+            </line>
+            <line>
+              <![CDATA[Belstone Pure Veg]]>
+            </line>
+            <line>
+              <![CDATA[Srinathji's]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Free India]]>
+            </line>
+            <line>
+              <![CDATA[Great Punjab]]>
+            </line>
+            <line>
+              <![CDATA[7 Spice Chinese Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Punjabi Tadka By Crystal]]>
+            </line>
+            <line>
+              <![CDATA[Chovisam Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Sheetal Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Ambience]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Zaffran]]>
+            </line>
+            <line>
+              <![CDATA[Francesco's Pizzeria]]>
+            </line>
+            <line>
+              <![CDATA[Status]]>
+            </line>
+            <line>
+              <![CDATA[Hardeep Punjab]]>
+            </line>
+            <line>
+              <![CDATA[Simply Delecious]]>
+            </line>
+            <line>
+              <![CDATA[Creme House]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Zaika]]>
+            </line>
           </reporter-output>
         </test-method> <!-- currentLocationGPSEnabledTestCase -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="teardown" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:12Z" finished-at="2015-03-30T02:24:12Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest@1531931]" name="teardown" is-config="true" duration-ms="1744" started-at="2015-03-30T03:02:45Z" finished-at="2015-03-30T03:02:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSEnabledTest -->
     </test> <!-- TC_01 - Current Location when GPS is enabled -->
-    <test name="TC_02 - Current Location when GPS is initially disabled" duration-ms="1014" started-at="2015-03-29T20:54:12Z" finished-at="2015-03-29T20:54:13Z">
+    <test name="TC_02 - Current Location when GPS is initially disabled" duration-ms="122531" started-at="2015-03-29T21:32:47Z" finished-at="2015-03-29T21:34:49Z">
       <class name="com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest">
-        <test-method status="FAIL" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="checkGPS" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:12Z" finished-at="2015-03-30T02:24:12Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.flutterbee.tinyowl.Page.getNewDriverForGPSSettings(Page.java:63)
-	at com.flutterbee.tinyowl.BaseTest.getDriverForGPSSettings(BaseTest.java:33)
-	at com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest.checkGPS(CurrentLocationGPSDisabledTest.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 33 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="checkGPS" is-config="true" duration-ms="31080" started-at="2015-03-30T03:02:47Z" finished-at="2015-03-30T03:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGPS -->
-        <test-method status="SKIP" signature="currentLocationGPSDisabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="currentLocationGPSDisabledTestCase" duration-ms="1" started-at="2015-03-30T02:24:13Z" finished-at="2015-03-30T02:24:13Z">
+        <test-method status="PASS" signature="currentLocationGPSDisabledTestCase()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="currentLocationGPSDisabledTestCase" duration-ms="89701" started-at="2015-03-30T03:03:18Z" finished-at="2015-03-30T03:04:47Z">
           <reporter-output>
+            <line>
+              <![CDATA[
+Executing - CurrentLocationGPSDisabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Elphinstone Flyover, Saidham Nagar, Lower Parel - ]]>
+            </line>
+            <line>
+              <![CDATA[Box8]]>
+            </line>
+            <line>
+              <![CDATA[Malvani Katta]]>
+            </line>
+            <line>
+              <![CDATA[Tibb's Frankie]]>
+            </line>
+            <line>
+              <![CDATA[Modern Bar & Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Amazing China]]>
+            </line>
+            <line>
+              <![CDATA[Hangla's]]>
+            </line>
+            <line>
+              <![CDATA[Shapoor Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Chinese Corner]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Modern Family Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Bom Tasty Treat]]>
+            </line>
+            <line>
+              <![CDATA[Meal Box Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Sarang Bandhu]]>
+            </line>
+            <line>
+              <![CDATA[Shang Dynasty]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Local Bites]]>
+            </line>
+            <line>
+              <![CDATA[Belstone Pure Veg]]>
+            </line>
+            <line>
+              <![CDATA[Srinathji's]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Free India]]>
+            </line>
+            <line>
+              <![CDATA[Great Punjab]]>
+            </line>
+            <line>
+              <![CDATA[7 Spice Chinese Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Punjabi Tadka By Crystal]]>
+            </line>
+            <line>
+              <![CDATA[Chovisam Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Sheetal Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Ambience]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Zaffran]]>
+            </line>
+            <line>
+              <![CDATA[Francesco's Pizzeria]]>
+            </line>
+            <line>
+              <![CDATA[Status]]>
+            </line>
+            <line>
+              <![CDATA[Hardeep Punjab]]>
+            </line>
+            <line>
+              <![CDATA[Simply Delecious]]>
+            </line>
+            <line>
+              <![CDATA[Creme House]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Zaika]]>
+            </line>
           </reporter-output>
         </test-method> <!-- currentLocationGPSDisabledTestCase -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="teardown" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:13Z" finished-at="2015-03-30T02:24:13Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest@8dacdf]" name="teardown" is-config="true" duration-ms="1747" started-at="2015-03-30T03:04:47Z" finished-at="2015-03-30T03:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.flutterbee.tinyowl.CurrentLocationGPSDisabledTest -->
     </test> <!-- TC_02 - Current Location when GPS is initially disabled -->
-    <test name="TC_03 - Search a valid(in scope) Location manually when GPS is enabled" duration-ms="1030" started-at="2015-03-29T20:54:13Z" finished-at="2015-03-29T20:54:14Z">
+    <test name="TC_03 - Search a valid(in scope) Location manually when GPS is enabled" duration-ms="202942" started-at="2015-03-29T21:34:49Z" finished-at="2015-03-29T21:38:12Z">
       <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <test-method status="FAIL" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="checkGPS" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:13Z" finished-at="2015-03-30T02:24:13Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.flutterbee.tinyowl.Page.getNewDriverForGPSSettings(Page.java:63)
-	at com.flutterbee.tinyowl.BaseTest.getDriverForGPSSettings(BaseTest.java:33)
-	at com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest.checkGPS(SearchLocationManuallyGPSEnabledTest.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 33 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="checkGPS" is-config="true" duration-ms="35982" started-at="2015-03-30T03:04:49Z" finished-at="2015-03-30T03:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGPS -->
-        <test-method status="SKIP" signature="searchLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="searchLocationManuallyGPSEnabledTestCase" duration-ms="1" started-at="2015-03-30T02:24:14Z" finished-at="2015-03-30T02:24:14Z">
+        <test-method status="PASS" signature="searchLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="searchLocationManuallyGPSEnabledTestCase" duration-ms="165196" started-at="2015-03-30T03:05:25Z" finished-at="2015-03-30T03:08:10Z">
           <params>
             <param index="0">
               <value>
@@ -283,98 +1004,223 @@ Caused by: java.net.ConnectException: Connection refused: connect
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Dadar, Mumbai, Maharashtra, India - ]]>
+            </line>
+            <line>
+              <![CDATA[Fric N Floc]]>
+            </line>
+            <line>
+              <![CDATA[Saibini Gomantak]]>
+            </line>
+            <line>
+              <![CDATA[Chilli House]]>
+            </line>
+            <line>
+              <![CDATA[Home Kitchen Company]]>
+            </line>
+            <line>
+              <![CDATA[Shree Swami Samarth Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Box8]]>
+            </line>
+            <line>
+              <![CDATA[Light Of Bharat]]>
+            </line>
+            <line>
+              <![CDATA[Saffron]]>
+            </line>
+            <line>
+              <![CDATA[Tasty Sandwich And Pizza Corner]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Munch]]>
+            </line>
+            <line>
+              <![CDATA[Awadhpuri Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Sarang Bandhu]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Chandra Prakash]]>
+            </line>
+            <line>
+              <![CDATA[The Baker's Dozen]]>
+            </line>
+            <line>
+              <![CDATA[Hilton's]]>
+            </line>
+            <line>
+              <![CDATA[Monginis]]>
+            </line>
+            <line>
+              <![CDATA[Zelos N Zest]]>
+            </line>
+            <line>
+              <![CDATA[Gold Rushs]]>
+            </line>
+            <line>
+              <![CDATA[Potoba]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Sujay]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Favourites]]>
+            </line>
+            <line>
+              <![CDATA[Flavours]]>
+            </line>
+            <line>
+              <![CDATA[Shree Krishna Veg Diet]]>
+            </line>
+            <line>
+              <![CDATA[Japps]]>
+            </line>
+            <line>
+              <![CDATA[Subway]]>
+            </line>
+            <line>
+              <![CDATA[Ambretto]]>
+            </line>
+            <line>
+              <![CDATA[Chaitanya]]>
+            </line>
+            <line>
+              <![CDATA[Aroma]]>
+            </line>
+            <line>
+              <![CDATA[Khans]]>
+            </line>
+            <line>
+              <![CDATA[Icy Spicy Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Anand Bhuwan The Dining Bar]]>
+            </line>
+            <line>
+              <![CDATA[Chovisam Pizza]]>
+            </line>
+            <line>
+              <![CDATA[Wok & Roll]]>
+            </line>
+            <line>
+              <![CDATA[Srinathjis]]>
+            </line>
+            <line>
+              <![CDATA[Sin City Cakes And Bakes]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Sheetal]]>
+            </line>
+            <line>
+              <![CDATA[Aroma Lets Celebrate]]>
+            </line>
+            <line>
+              <![CDATA[Home Deli]]>
+            </line>
+            <line>
+              <![CDATA[Downtown Dhaba]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Omkar]]>
+            </line>
+            <line>
+              <![CDATA[Foodish-The Happy Food]]>
+            </line>
+            <line>
+              <![CDATA[Diva Maharashtracha]]>
+            </line>
+            <line>
+              <![CDATA[Goa Portuguesa]]>
+            </line>
+            <line>
+              <![CDATA[Dakshin Culture Curry]]>
+            </line>
+            <line>
+              <![CDATA[Little China]]>
+            </line>
+            <line>
+              <![CDATA[New Garam Masala]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Ching - Ki - Shack]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[China Bistro]]>
+            </line>
+            <line>
+              <![CDATA[Sushegad Gomantak]]>
+            </line>
+            <line>
+              <![CDATA[Stepiin Bar & Kitchen]]>
+            </line>
+            <line>
+              <![CDATA[Baba Falooda]]>
+            </line>
+            <line>
+              <![CDATA[Sneha Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Malwan Kinara]]>
+            </line>
+            <line>
+              <![CDATA[Howra]]>
+            </line>
+            <line>
+              <![CDATA[Saffron 12]]>
+            </line>
+            <line>
+              <![CDATA[Shiv Palace Restaurant And Bar]]>
+            </line>
+            <line>
+              <![CDATA[I Love Food]]>
+            </line>
+            <line>
+              <![CDATA[Lazeez Xpress]]>
+            </line>
+            <line>
+              <![CDATA[Rasna Punjab]]>
+            </line>
+            <line>
+              <![CDATA[Flavours Of China]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchLocationManuallyGPSEnabledTestCase -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="teardown" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:14Z" finished-at="2015-03-30T02:24:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@f438e]" name="teardown" is-config="true" duration-ms="1761" started-at="2015-03-30T03:08:10Z" finished-at="2015-03-30T03:08:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
     </test> <!-- TC_03 - Search a valid(in scope) Location manually when GPS is enabled -->
-    <test name="TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled" duration-ms="1023" started-at="2015-03-29T20:54:14Z" finished-at="2015-03-29T20:54:15Z">
+    <test name="TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled" duration-ms="68339" started-at="2015-03-29T21:38:12Z" finished-at="2015-03-29T21:39:21Z">
       <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest">
-        <test-method status="FAIL" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="checkGPS" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:14Z" finished-at="2015-03-30T02:24:14Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.flutterbee.tinyowl.Page.getNewDriverForGPSSettings(Page.java:63)
-	at com.flutterbee.tinyowl.BaseTest.getDriverForGPSSettings(BaseTest.java:33)
-	at com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest.checkGPS(SearchLocationManuallyGPSEnabledTest.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 33 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 46 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="checkGPS" is-config="true" duration-ms="30655" started-at="2015-03-30T03:08:12Z" finished-at="2015-03-30T03:08:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGPS -->
-        <test-method status="SKIP" signature="searchLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="searchLocationManuallyGPSEnabledTestCase" duration-ms="1" started-at="2015-03-30T02:24:15Z" finished-at="2015-03-30T02:24:15Z">
+        <test-method status="FAIL" signature="searchLocationManuallyGPSEnabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="searchLocationManuallyGPSEnabledTestCase" duration-ms="35992" started-at="2015-03-30T03:08:43Z" finished-at="2015-03-30T03:09:19Z">
           <params>
             <param index="0">
               <value>
@@ -382,50 +1228,25 @@ Caused by: java.net.ConnectException: Connection refused: connect
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchLocationManuallyGPSEnabledTestCase -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="teardown" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:15Z" finished-at="2015-03-30T02:24:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
-    </test> <!-- TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled -->
-    <test name="TC_05 - Search a valid(in scope) Location manually when GPS is initially disabled" duration-ms="1017" started-at="2015-03-29T20:54:15Z" finished-at="2015-03-29T20:54:16Z">
-      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
-        <test-method status="FAIL" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="checkGPS" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:15Z" finished-at="2015-03-30T02:24:15Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver]]>
+              <![CDATA[Currently Not Active in Virar East, Virar, Maharashtra, India]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'USMUMDVINAYAK1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.flutterbee.tinyowl.Page.getNewDriverForGPSSettings(Page.java:63)
-	at com.flutterbee.tinyowl.BaseTest.getDriverForGPSSettings(BaseTest.java:33)
-	at com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest.checkGPS(SearchLocationManuallyGPSDisabledTest.java:19)
+              <![CDATA[java.lang.AssertionError: Currently Not Active in Virar East, Virar, Maharashtra, India
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.flutterbee.tinyowl.ManualLocationEntryPage.selectLocationManually(ManualLocationEntryPage.java:141)
+	at com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest.searchLocationManuallyGPSEnabledTestCase(SearchLocationManuallyGPSEnabledTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
@@ -440,41 +1261,32 @@ Driver info: driver.version: AndroidDriver
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 33 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 46 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSEnabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Currently Not Active in Virar East, Virar, Maharashtra, India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchLocationManuallyGPSEnabledTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest@1a6e353]" name="teardown" is-config="true" duration-ms="1690" started-at="2015-03-30T03:09:19Z" finished-at="2015-03-30T03:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.flutterbee.tinyowl.SearchLocationManuallyGPSEnabledTest -->
+    </test> <!-- TC_04 - Search an invalid(out of scope) Location manually when GPS is enabled -->
+    <test name="TC_05 - Search a valid(in scope) Location manually when GPS is initially disabled" duration-ms="274996" started-at="2015-03-29T21:39:21Z" finished-at="2015-03-29T21:43:56Z">
+      <class name="com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest">
+        <test-method status="PASS" signature="checkGPS()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="checkGPS" is-config="true" duration-ms="31041" started-at="2015-03-30T03:09:21Z" finished-at="2015-03-30T03:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGPS -->
-        <test-method status="SKIP" signature="searchLocationManuallyGPSDisabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="searchLocationManuallyGPSDisabledTestCase" duration-ms="1" started-at="2015-03-30T02:24:16Z" finished-at="2015-03-30T02:24:16Z">
+        <test-method status="PASS" signature="searchLocationManuallyGPSDisabledTestCase(java.lang.String)[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="searchLocationManuallyGPSDisabledTestCase" duration-ms="242111" started-at="2015-03-30T03:09:52Z" finished-at="2015-03-30T03:13:54Z">
           <params>
             <param index="0">
               <value>
@@ -483,9 +1295,304 @@ Caused by: java.net.ConnectException: Connection refused: connect
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[
+Executing - SearchLocationManuallyGPSDisabledTest]]>
+            </line>
+            <line>
+              <![CDATA[Following are the Restaurants in Elphinstone College, Mumbai, Maharashtra, India - ]]>
+            </line>
+            <line>
+              <![CDATA[Oye Kake]]>
+            </line>
+            <line>
+              <![CDATA[The Pantry Cafe']]>
+            </line>
+            <line>
+              <![CDATA[Mocambo Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Churchill]]>
+            </line>
+            <line>
+              <![CDATA[Pratap Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Harish Refreshment]]>
+            </line>
+            <line>
+              <![CDATA[H. Paramesha Fast Food Corner]]>
+            </line>
+            <line>
+              <![CDATA[The Mumbai Masala]]>
+            </line>
+            <line>
+              <![CDATA[7 Fresh]]>
+            </line>
+            <line>
+              <![CDATA[Brijwasi Toast & Grill Corner]]>
+            </line>
+            <line>
+              <![CDATA[Mao Family Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Lalit Refreshments]]>
+            </line>
+            <line>
+              <![CDATA[National Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Lalit Refreshment-Taste Of Kerala]]>
+            </line>
+            <line>
+              <![CDATA[6Th Street Yogurt]]>
+            </line>
+            <line>
+              <![CDATA[Bombay Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[New Edward Bakery]]>
+            </line>
+            <line>
+              <![CDATA[Edward Bakery]]>
+            </line>
+            <line>
+              <![CDATA[Liberty Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Paris]]>
+            </line>
+            <line>
+              <![CDATA[Shaan Chinese Corner]]>
+            </line>
+            <line>
+              <![CDATA[Great Western Fast Food Corner]]>
+            </line>
+            <line>
+              <![CDATA[210 Degrees]]>
+            </line>
+            <line>
+              <![CDATA[Kya Miyaa!]]>
+            </line>
+            <line>
+              <![CDATA[Pronto]]>
+            </line>
+            <line>
+              <![CDATA[Sky Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Markiv's]]>
+            </line>
+            <line>
+              <![CDATA[Big Daddy]]>
+            </line>
+            <line>
+              <![CDATA[Mr. Chow's]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Darbar]]>
+            </line>
+            <line>
+              <![CDATA[Jay Snacks]]>
+            </line>
+            <line>
+              <![CDATA[Apna Fast Food Centre]]>
+            </line>
+            <line>
+              <![CDATA[Leo's Boulangerie]]>
+            </line>
+            <line>
+              <![CDATA[Kaisar E Hind]]>
+            </line>
+            <line>
+              <![CDATA[Shri Ganesh Krupa Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Hindustan Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Mezban]]>
+            </line>
+            <line>
+              <![CDATA[Happiness Deli]]>
+            </line>
+            <line>
+              <![CDATA[New Udipi Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Baskin Robbins]]>
+            </line>
+            <line>
+              <![CDATA[Paninaro]]>
+            </line>
+            <line>
+              <![CDATA[Chikita]]>
+            </line>
+            <line>
+              <![CDATA[Nanumal Bhojraj]]>
+            </line>
+            <line>
+              <![CDATA[Aye Dios Mio]]>
+            </line>
+            <line>
+              <![CDATA[Chhaya Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Colaba Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[No 1 Roll]]>
+            </line>
+            <line>
+              <![CDATA[Farhang Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Shubh Sagar]]>
+            </line>
+            <line>
+              <![CDATA[Sahibaan]]>
+            </line>
+            <line>
+              <![CDATA[Leopold Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Mishtan Bhojnalaya]]>
+            </line>
+            <line>
+              <![CDATA[Anubhav Bar And Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Jimmy Boy]]>
+            </line>
+            <line>
+              <![CDATA[Maharashtra Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Ayub's]]>
+            </line>
+            <line>
+              <![CDATA[New Neelam Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Laxmi Vilas]]>
+            </line>
+            <line>
+              <![CDATA[Subway]]>
+            </line>
+            <line>
+              <![CDATA[Jaffer Bhai's Delhi Darbar]]>
+            </line>
+            <line>
+              <![CDATA[Annaleela Modern Cafe]]>
+            </line>
+            <line>
+              <![CDATA[Patel Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Sundance]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Metro]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Firdos]]>
+            </line>
+            <line>
+              <![CDATA[Fly By Knight]]>
+            </line>
+            <line>
+              <![CDATA[Dwarka]]>
+            </line>
+            <line>
+              <![CDATA[Femistic Chinese]]>
+            </line>
+            <line>
+              <![CDATA[Cafe Excelsior]]>
+            </line>
+            <line>
+              <![CDATA[Balgi Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Vithal's Family Restaurant And Bar]]>
+            </line>
+            <line>
+              <![CDATA[Hind Chinese]]>
+            </line>
+            <line>
+              <![CDATA[Pancharatna Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Food Plaza]]>
+            </line>
+            <line>
+              <![CDATA[Carter's Blue]]>
+            </line>
+            <line>
+              <![CDATA[Sizzling China]]>
+            </line>
+            <line>
+              <![CDATA[Mahesh Lunch Home]]>
+            </line>
+            <line>
+              <![CDATA[Punjabi Moti Halwai]]>
+            </line>
+            <line>
+              <![CDATA[Jai Jalaram Sweets & Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Spices & Flavours]]>
+            </line>
+            <line>
+              <![CDATA[For Heavens Cakes]]>
+            </line>
+            <line>
+              <![CDATA[Imbiss]]>
+            </line>
+            <line>
+              <![CDATA[Choco Mania]]>
+            </line>
+            <line>
+              <![CDATA[Gary's]]>
+            </line>
+            <line>
+              <![CDATA[Usmaniya Hotel]]>
+            </line>
+            <line>
+              <![CDATA[Patil Juice Center]]>
+            </line>
+            <line>
+              <![CDATA[Dark Temptations]]>
+            </line>
+            <line>
+              <![CDATA[Kurry Club]]>
+            </line>
+            <line>
+              <![CDATA[Smokin' Joe's]]>
+            </line>
+            <line>
+              <![CDATA[Pejas Pure Veg Restaurant]]>
+            </line>
+            <line>
+              <![CDATA[Sudha Fast Food]]>
+            </line>
+            <line>
+              <![CDATA[Babulnath Dosa Center]]>
+            </line>
+            <line>
+              <![CDATA[Aakash Sagar]]>
+            </line>
+            <line>
+              <![CDATA[Apsara Ice Creams]]>
+            </line>
+            <line>
+              <![CDATA[Delhi Zaika]]>
+            </line>
+            <line>
+              <![CDATA[Hotel Suprabhat & Satkar Fast Food]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchLocationManuallyGPSDisabledTestCase -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="teardown" is-config="true" duration-ms="0" started-at="2015-03-30T02:24:16Z" finished-at="2015-03-30T02:24:16Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.flutterbee.tinyowl.SearchLocationManuallyGPSDisabledTest@6e6d5e]" name="teardown" is-config="true" duration-ms="1842" started-at="2015-03-30T03:13:54Z" finished-at="2015-03-30T03:13:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
